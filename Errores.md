@@ -1,0 +1,1 @@
+# Errores que se detecten en el código/funciones incompletas
