@@ -3,23 +3,37 @@
 
 typedef struct{
   
-  char marca[20];
-  char modelo[20];
-  float motor;
-  char condicion[20];
-  char traccion[20];
-  char caja[20];
-  int año;
-  long int precio;
-  int kilometraje;
-  int combustible;
-  int puertas;
-  int pasajeros;
-  char comentario[301];
-  char vendedor[30];
-  long int telefono;
+  int Tipo;	//(si es 0 es auto, si es 1 es camioneta)
+  int condición;	//(1 usado, 0 nuevo)
+  int Año;
+  int Precio;
+  int Caja;	//(0 manual, 1 automático)
+  int NumeroDePasajeros;
+  char[20] Marca;
+  int Tracción; //(0 si es 4x2, 1 si es 4x4)
+  float Motor;
+  char[10] combustible;
+  int kilometraje; 
+  char[301] Comentario;
+  tipoContacto contacto;
+  int key;
+  char[50] modelo;   
+
 
 }tipoAuto
+
+typedef struct{
+  int key;
+  HashMap *Autos;
+  char[20] Marca;
+
+}tipoMarca
+
+typedef struct{
+   char[50] Vendedor;
+   int numero;
+
+}tipoContacto
 
 void importarArchivo(map* mapa);
 
