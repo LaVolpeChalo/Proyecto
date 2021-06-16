@@ -4,7 +4,6 @@ Integrantes
 - José Olguin
 - Felipe Arias
 - Esteban Rodriguez
-- Rocío Ramirez
 
 Puntos de premio y de castigo:
 
@@ -12,7 +11,6 @@ Puntos de premio y de castigo:
 - Esteban Rodriguez: 
 - José Olguin:
 - Felipe Arias:
-- Rocío Ramirez:
 
 Código para compilar: gcc -o proyecto.exe Librerias/Interfaz/Interfaz.c Librerias/Aplicacion.c main.c (recordar actualizar si se ingresan más librerías).
 
