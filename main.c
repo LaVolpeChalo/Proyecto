@@ -12,7 +12,7 @@ int main(){
         desplegarMenu();
 
         //Elección de la opción del menu
-        printf("\nElija una opcion: ");
+        printf(yellow"\nElija una opcion: "reset);
         scanf("%i", &opcion);
         if(opcion == 0) break;
         

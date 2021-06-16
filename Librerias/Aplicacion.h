@@ -1,7 +1,7 @@
 #ifndef Aplicacion_h
 #define Aplicacion_h
 
-typedef struct{
+/*typedef struct{
   
   int Tipo;	//(si es 0 es auto, si es 1 es camioneta)
   int condición;	//(1 usado, 0 nuevo)
@@ -39,5 +39,5 @@ void importarArchivo(map* mapa);
 
 
 
-
+*/
 #endif

@@ -3,7 +3,7 @@
 #include <string.h>
 #include "Aplicacion.h"
 
-char *get_csv_field (char * tmp, int k) {
+/*char *get_csv_field (char * tmp, int k) {
 	int open_mark = 0;
 	char* ret=(char*) malloc (100*sizeof(char));
 	int ini_i=0, i=0;
@@ -89,4 +89,4 @@ void importarArchivo(map* mapa){
 
   }
 
-}
+}*/
