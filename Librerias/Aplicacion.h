@@ -1,43 +1,46 @@
 #ifndef Aplicacion_h
 #define Aplicacion_h
+#include "hashmap.h"
 
-/*typedef struct{
+typedef struct{
+   char Vendedor[50];
+   int numero;
+
+}tipoContacto;
+
+typedef struct{
   
   int Tipo;	//(si es 0 es auto, si es 1 es camioneta)
-  int condición;	//(1 usado, 0 nuevo)
+  int condicion;	//(1 usado, 0 nuevo)
   int Año;
   int Precio;
   int Caja;	//(0 manual, 1 automático)
+  int NumeroDePuertas;
   int NumeroDePasajeros;
-  char[20] Marca;
-  int Tracción; //(0 si es 4x2, 1 si es 4x4)
+  char Marca[20];
+  int Traccion; //(0 si es 4x2, 1 si es 4x4)
   float Motor;
-  char[10] combustible;
+  char combustible[10];
   int kilometraje; 
-  char[301] Comentario;
+  char Comentario[301];
   tipoContacto contacto;
   int key;
-  char[50] modelo;   
+  char modelo[50];   
 
 
-}tipoAuto
+}tipoAuto;
 
 typedef struct{
   int key;
   HashMap *Autos;
-  char[20] Marca;
+  char Marca[20];
 
-}tipoMarca
+}tipoMarca;
 
-typedef struct{
-   char[50] Vendedor;
-   int numero;
 
-}tipoContacto
-
-void importarArchivo(map* mapa);
+void importarArchivo(HashMap* mapa);
 
 
 
-*/
+
 #endif
