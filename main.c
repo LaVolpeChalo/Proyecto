@@ -1,9 +1,12 @@
 #include <stdio.h>
-
-#include "Librerias\Interfaz\Interfaz.h"
-#include "Librerias\Aplicacion.h"
+#include <stdlib.h>
+#include "Librerias/hashmap.h"
+#include "Librerias/Interfaz/Interfaz.h"
+#include "Librerias/Aplicacion.h"
+#include "Librerias/list.h"
 
 int main(){
+    HashMap* mapa=createMap(85);
 
     short opcion;
 
@@ -12,12 +15,12 @@ int main(){
         desplegarMenu();
 
         //Elección de la opción del menu
-        printf(yellow"\nElija una opcion: "reset);
-        scanf("%i", &opcion);
+        printf("\nElija una opcion: ");
+        scanf("%hi", &opcion);
         if(opcion == 0) break;
         
         switch(opcion){
-            case 1:
+            case 1: importarArchivo(mapa);
                 break;
             case 2:
                 break;
