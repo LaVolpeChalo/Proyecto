@@ -2,8 +2,9 @@
 #include <stdlib.h>
 #include <string.h>
 #include "Aplicacion.h"
+#include "hashmap.h"
 
-/*char *get_csv_field (char * tmp, int k) {
+char *get_csv_field (char * tmp, int k) {
 	int open_mark = 0;
 	char* ret=(char*) malloc (100*sizeof(char));
 	int ini_i=0, i=0;
@@ -42,51 +43,47 @@
 	return NULL;
 }
 
-void importarArchivo(map* mapa){
+void importarArchivo(HashMap* mapa){
   FILE *fp = fopen ("Vehiculos.csv", "r");
   char linea[1024];
   while(fgets (linea, 1023, fp) != NULL){
   
   char* aux;
   tipoAuto* a=(tipoAuto*)malloc(sizeof(tipoAuto));
+  tipoMarca* b=(tipoMarca*)malloc(sizeof(tipoMarca));
+  tipoContacto* c=(tipoContacto*)malloc(sizeof(tipoContacto));
 
   aux = get_csv_field(linea,0);
-  strcpy(a->marca, aux);
+  strcpy(a->Marca, aux);
 
   aux = get_csv_field(linea,1);
   strcpy(a->modelo, aux);
 
-  a->motor = atof(get_csv_field(linea,2));
+  a->Tipo = atoi(get_csv_field(linea,2));
+
+  a->Motor = atof(get_csv_field(linea,3));
+
+  a->condicion = atoi(get_csv_field(linea,4));
+
+  a->Traccion = atoi(get_csv_field(linea,5));
+
+  a->Caja = atoi(get_csv_field(linea,6));
+
+  a->Año = atoi(get_csv_field(linea,7));
   
-  aux = get_csv_field(linea,3);
-  strcpy(a->condicion, aux);
+  a->Precio = atol(get_csv_field(linea,8));
 
-  aux = get_csv_field(linea,4);
-  strcpy(a->traccion, aux);
+  a->kilometraje = atoi(get_csv_field(linea,9));
 
-  aux = get_csv_field(linea,5);
-  strcpy(a->caja, aux);
+  aux = (get_csv_field(linea,10));
+  strcpy(a->combustible,aux);
 
-  a->año = atoi(get_csv_field(linea,6));
+  a->NumeroDePuertas = atoi(get_csv_field(linea,11));
+
+  a->NumeroDePasajeros = atoi(get_csv_field(linea,12));
+  insertMap(mapa,a->modelo,a);
   
-  a->precio = atol(get_csv_field(linea,7));
-
-  a->kilometraje = atoi(get_csv_field(linea,8));
-
-  a->combustible = atoi(get_csv_field(linea,9));
-
-  a->puertas = atoi(get_csv_field(linea,10));
-
-  a->pasajeros = atoi(get_csv_field(linea,11));
-
-  aux = get_csv_field(linea,12);
-  strcpy(a->comentario, aux);
-
-  aux = get_csv_field(linea,12);
-  strcpy(a->vendedor, aux);
-
-  a->telefono = atol(get_csv_field(linea,13));
-
   }
 
-}*/
+}
+
