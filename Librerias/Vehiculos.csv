@@ -1,2 +1,83 @@
-chevrolet,sail,1.4,usado,delantera,no,2013,4500000,120,39,4,5,usado pero con detalles en la puerta del conductor,marcelo varas,945831504
-kia,morning,1.2,usado,delantera,si,2015,5800000,130,38,4,5,con choque pequeño en parte trasera,miriam caro,957298906
+chevrolet,apache,1,2.4,1,1,0,2010,6.000.000,120.000,bencina,4,5
+chevrolet,	astra,0,	2.0,	1,	0,	0,	2010,	8.500.000,	85.000,	bencina,	2,	5
+chevrolet,	aveo,	0,	1.4,	1,	0,	0,	2016,	6.800.000,	116.765,	bencina,	4,	5
+chevrolet,	camaro,	0,	6.2,	1,	0,	1,	2017,	29.900.000,	63.000,	bencina,	2,	2
+chevrolet,	cavalier,	0,	1.5,	0,	0,	0,	2021,	10.290.000,	0,	bencina,	4,	5
+chevrolet,	captiva,	1,	2.2,	1,	0,	0,	2015,	11.700.000,	167.500,	diesel,	4,	7
+chevrolet,	cobalt,	0,	1.8,	1,	0,	0,	2018,	8.790.000,	23.000,	bencina,	4,	5
+chevrolet,	corsa sport,	0,	1.6,	1,	0,	0,	2004,	2.500.000,	220.000,	bencina,	2,	5
+chevrolet,	corsa,	0,	1.6,	1,	0,	0,	2006,	3.200.000,	180.000,	bencina,	4,	5
+chevrolet,	corvette,	0,	6.2,	1,	0,	1,	2010,	32.450.000,	32.000,	bencina,	2,	2
+chevrolet,	cruze,	0,	1.8,	1,	0,	0,	2014,	7.600.000,	130.000,	bencina,	4,	5
+chevrolet,	d-max,	1,	2.5,	1,	1,	0,	2018,	18.290.000,	79.000,	diesel,	4,	5
+chevrolet,	luv,	1,	1.6,	1,	0,	0,	1993,	3.500.000,	274.302,	bencina,	4,	5
+chevrolet,	montana,	1,	1.8,	1,	0,	0,	2013,	6.400.000,	120.000,	bencina,	2,	2
+chevrolet,	monza,	0,	1.7,	1,	0,	0,	1992,	1.200.000,	185.000,	bencina,	4,	5
+chevrolet,	onix,	0,	1.0,	0,	0,	1,	2020,	11.190.000,	0,	bencina,	4,	5
+chevrolet,	orlando,	1,	2.4,	1,	0,	1,	2019,	13.200.000,	15.000,	diesel,	4,	7
+chevrolet,	prisma,	0,	1.4,	0,	0,	1,	2021,	10.000.000,	0,	bencina,	4,	5
+chevrolet,	s10,	1,	4.3,	1,	1,	1,	2000,	7.150.000,	180.000,	bencina,	4,	5
+chevrolet,	sail,	0,	1.4,	1,	0,	0,	2017,	7.950.000,	79.000,	bencina,	4,	5
+chevrolet,	silverado,	1,	5.3,	1,	1,	1,	2018,	30.940.000,	83.500,	bencina,	4,	5
+chevrolet,	sonic,	0,	1.6,	1,	0,	1,	2015,	6.900.000,	80.000,	bencina,	4,	5
+chevrolet,	spark,	0,	1.2,	0,	0,	0,	2020,	7.190.000,	0,	bencina,	4,	5
+chevrolet,	suburban,	1,	5.3,	1,	1,	1,	2014,	20.990.000,	136.000,	diesel,	4,	7
+chevrolet,	vectra,	0,	2.2,	1,	0,	0,	2007,	5.500.000,	190.000,	bencina,	4,	5
+chevrolet,	zafira,	1,	2.0,	1,	0,	0,	2004,	3.800.000,	80.000,	bencina,	4,	5
+hyundai,	accent,	0,	1.4,	1,	0,	0,	2011,	9.000.000,	77.000,	bencina,	4,	5
+hyundai,	elantra,	0,	1.6,	1,	0,	1,	2019,	11.890.000,	61.000,	bencina,	4,	5
+hyundai,	eon,	0,	0.8,	1,	0,	0,	2017,	6.400.000,	40.000,	bencina,	2,	4
+hyundai,	equus,	0,	4.6,	1,	0,	1,	2013,	18.000.000,	110.000,	bencina,	4,	5
+hyundai,	excel,	0,	0.6,	1,	0,	0,	1993,	500.000,	330.000,	bencina,	2,	4
+hyundai,	galloper,	1,	2.5,	1,	1,	0,	2000,	5.450.000,	250.000,	diesel,	4,	5
+hyundai,	genesis,	0,	3.8,	1,	0,	1,	2017,	39.000.000,	40.000,	bencina,	2,	4
+hyundai,	grand i10,	0,	1.2,	1,	0,	0,	2018,	7.400.000,	26.500,	bencina,	2,	4
+hyundai,	santa fe,	1,	2.4,	1,	0,	1,	2012,	9.800.000,	128.000,	bencina,	4,	7
+hyundai,	h1,	1,	2.5,	1,	1,	0,	2017,	18.000.000,	87.000,	diesel,	4,	9
+hyundai,	h100,	1,	2.5,	1,	0,	0,	2002,	4.500.000,	163.000,	diesel,	4,	11
+hyundai,	i10,	0,	1.2,	1,	0,	1,	2016,	7.690.000,	137.000,	bencina,	4,	5
+hyundai,	i20,	0,	1.4,	1,	0,	0,	2019,	10.690.000,	40.000,	bencina,	4,	5
+hyundai,	i30,	0,	2.0,	0,	0,	1,	2021,	18.000.000,	0,	bencina,	4,	5
+hyundai,	matrix,	1,	2.5,	1,	0,	0,	2007,	4.800.000,	277.000,	diesel,	4,	5
+hyundai,	tucson,	1,	2.0,	1,	1,	1,	2017,	17.400.000,	143.000,	diesel,	3,	5
+hyundai,	sonata,	0,	2.4,	1,	0,	1,	2015,	14.900.000,	36.000,	bencina,	4,	5
+hyundai,	veloster,	0,	2.0,	0,	0,	0,	2020,	15.990.000,	0,	bencina,	4,	5
+hyundai,	veracruz,	1,	3.8,	1,	0,	1,	2008,	9.800.000,	116.500,	bencina,	4,	7
+hyundai,	verna,	0,	1.4,	0,	0,	0,	2021,	9.590.000,	0,	bencina,	4,	5
+toyota,	4runner,	1,	4.0,	1,	1,	1,	2012,	19.000.000,	221.200,	bencina,	4,	8
+toyota,	auris,	0,	1.6,	1,	0,	0,	2014,	10.280.000,	54.000,	bencina,	4,	5
+toyota,	avensis,	0,	2.0,	1,	0,	1,	2013,	8.300.000,	189.700,	bencina,	4,	5
+toyota,	corolla,	0,	1.8,	1,	0,	1,	2018,	12.300.000,	17.000,	bencina,	4,	5
+toyota,	corona,	0,	1.4,	1,	0,	1,	1994,	2.300.000,	339.000,	bencina,	4,	5
+toyota,	fortuner,	1,	2.7,	0,	1,	1,	2020,	28.500.000,	0,	bencina,	4,	8
+toyota,	hilux,	1,	2.4,	1,	1,	0,	2018,	18.000.000,	58.600,	diesel,	4,	5
+toyota,	land  cruiser,	1,	2.7,	1,	1,	1,	2013,	15.900.000,	145.000,	bencina,	2,	5
+toyota,	prius,	0,	1.8,	1,	0,	1,	2018,	19.990.000,	32.000,	electrico,	4,	5
+toyota,	rav4,	1,	2.4,	1,	0,	1,	2016,	16.000.000,	140.000,	bencina,	4,	5
+toyota,	supra,	0,	2.0,	1,	0,	1,	2000,	12.000.000,	97.000,	bencina,	2,	2
+toyota,	tacoma,	1,	3.5,	0,	1,	1,	2021,	54.000.000,	0,	diesel,	4,	5
+toyota,	tercel,	0,	1.4,	1,	0,	0,	1997,	200.000,	185.000,	bencina,	4,	5
+toyota,	tundra,	1,	5.7,	1,	1,	1,	2011,	21.000.000,	127.000,	bencina,	4,	5
+toyota,	yaris,	0,	1.5,	1,	0,	0,	2016,	10.790.000,	83.000,	bencina,	4,	5
+toyota,	yaris sport,	0,	1.5,	1,	0,	0,	2017,	9.800.000,	97.000,	bencina,	2,	5
+toyota,	zelas,	0,	2.5,	1,	0,	1,	2012,	7.890.000,	245.000,	bencina,	4,	5
+nissan,	350z,	0,	3.5,	1,	0,	1,	2005,	10.500.000,	114.000,	bencina,	2,	2
+nissan,	370z,	0,	3.7,	1,	0,	1,	2013,	18.900.000,	56.000,	bencina,	2,	2
+nissan,	bluebird,	0,	1.2,	1,	0,	0,	1987,	2.200.000,	176.000,	bencina,	4,	5
+nissan,	d21,	1,	2.4,	1,	0,	0,	2000,	4.800.000,	338.000,	bencina,	4,	5
+nissan,	juke,	0,	1.6,	1,	1,	1,	2017,	13.200.000,	40.000,	bencina,	2,	5
+nissan,	kicks,	1,	1.6,	1,	0,	0,	2018,	12.500.000,	40.000,	bencina,	4,	5
+nissan,	march,	0,	1.6,	1,	0,	0,	2016,	7.000.000,	26.000,	bencina,	4,	5
+nissan,	maxima,	0,	1.8,	1,	0,	1,	2001,	4.000.000,	120.000,	bencina,	4,	5
+nissan,	navara,	1,	2.5,	1,	1,	0,	2013,	12.000.000,	235.000,	diesel,	4,	5
+nissan,	np300,	1,	2.3,	1,	1,	0,	2019,	24.900.000,	29.000,	diesel,	4,	5
+nissan,	platina,	0,	1.6,	1,	0,	0,	2008,	3.000.000,	358.000,	bencina,	4,	5
+nissan,	qashqai,	1,	2.0,	1,	0,	0,	2012,	10.000.000,	99.000,	bencina,	4,	5
+nissan,	sentra,	0,	1.8,	1,	0,	1,	2018,	10.300.000,	54.000,	bencina,	4,	5
+nissan,	skyline,	0,	2.5,	1,	0,	1,	2003,	12.500.000,	63.000,	bencina,	2,	2
+nissan,	terrano,	1,	2.5,	1,	1,	0,	2012,	14.000.000,	90.000,	diesel,	4,	5
+nissan,	tiida,	0,	1.6,	1,	0,	0,	2013,	6.300.000,	140.000,	bencina,	4,	5
+nissan,	titan,	1,	3.0,	1,	1,	1,	2017,	39.000.000,	131.000,	diesel,	4,	5
+nissan,	v16,	0,	1.6,	1,	0,	0,	2007,	2.600.000,	200.000,	bencina,	4,	5
+nissan,	versa,	0,	1.6,	1,	0,	1,	2016,	8.900.000,	97.000,	bencina,	4,	5
+nissan,	x-trail,	1,	2.5,	1,	1,	1,	2019,	16.000.000,	38.000,	bencina,	4,	5
