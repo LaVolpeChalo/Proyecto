@@ -54,7 +54,8 @@ void importarArchivo(HashMap* mapa){
   tipoContacto* c=(tipoContacto*)malloc(sizeof(tipoContacto));
 
   aux = get_csv_field(linea,0);
-  strcpy(a->Marca, aux);
+  strcpy(a->Marca,aux);
+  strcpy(b->Marca,aux);
 
   aux = get_csv_field(linea,1);
   strcpy(a->modelo, aux);
