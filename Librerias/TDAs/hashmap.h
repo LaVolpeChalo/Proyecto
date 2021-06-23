@@ -15,6 +15,7 @@ void * firstMap(HashMap * table);
 
 void * nextMap(HashMap * table);
 
+int mapsize(HashMap * map);
 
 void enlarge(HashMap * map);
 

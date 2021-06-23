@@ -32,7 +32,9 @@ int main(){
                 break;
             case 6:
                 break; 
-            case 7:
+            case 7: 
+                if(mapsize(mapa) != 0) desplegarautos(mapa);
+                else printf(red"\nLa base de datos se encuentra vacia\n"reset);
                 break;
             case 8:
                 break;
