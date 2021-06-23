@@ -7,6 +7,9 @@
 
 int main(){
     HashMap* mapa=createMap(85);
+    HashMap* mapa2=createMap(85);
+    tipoMarca* mapaMarca;
+    mapaMarca->Autos=createMap(85);
 
     short opcion;
 
@@ -20,7 +23,7 @@ int main(){
         if(opcion == 0) break;
         
         switch(opcion){
-            case 1: importarArchivo(mapa);
+            case 1: importarArchivo(mapa,mapa2,mapaMarca);
             printf(green"\n Importacion de archivo \n"reset);
                 break;
             case 2:
