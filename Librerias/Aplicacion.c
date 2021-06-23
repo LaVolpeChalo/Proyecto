@@ -45,6 +45,16 @@ char *get_csv_field (char * tmp, int k) {
 	return NULL;
 }
 
+int dentro(HashMap * mapa,char *marca){
+
+	tipoMarca *aux = searchMap(mapa,marca);
+
+	if(aux==NULL) return 0;
+
+	else return 1;
+
+}
+
 void importarArchivo(HashMap* mapa){
 
   char archivo[50];
