@@ -111,4 +111,8 @@ void desplegarautos(HashMap * mapa){
 
 
 }
+void * buscar_auto(HashMap * mapa)
+{
+	printf
+}
 
