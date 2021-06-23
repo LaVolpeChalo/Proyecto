@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 #include "Aplicacion.h"
-#include "hashmap.h"
+#include "TDAs/hashmap.h"
+#include "TDAs/list.h"
 
 char *get_csv_field (char * tmp, int k) {
 	int open_mark = 0;
@@ -70,7 +71,7 @@ void importarArchivo(HashMap* mapa){
 
   a->Caja = atoi(get_csv_field(linea,6));
 
-  a->Año = atoi(get_csv_field(linea,7));
+  a->Ano = atoi(get_csv_field(linea,7));
   
   a->Precio = atol(get_csv_field(linea,8));
 

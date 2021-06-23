@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "Librerias/hashmap.h"
+#include "Librerias/TDAs/hashmap.h"
 #include "Librerias/Interfaz/Interfaz.h"
 #include "Librerias/Aplicacion.h"
-#include "Librerias/list.h"
+#include "Librerias/TDAs/list.h"
 
 int main(){
     HashMap* mapa=createMap(85);

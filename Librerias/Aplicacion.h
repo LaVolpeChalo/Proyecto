@@ -1,6 +1,7 @@
 #ifndef Aplicacion_h
 #define Aplicacion_h
-#include "hashmap.h"
+#include "TDAs/hashmap.h"
+#include "TDAs/list.h"
 
 typedef struct{
    char Vendedor[50];
@@ -12,7 +13,7 @@ typedef struct{
   
   int Tipo;	//(si es 0 es auto, si es 1 es camioneta)
   int condicion;	//(1 usado, 0 nuevo)
-  int Año;
+  int Ano;
   int Precio;
   int Caja;	//(0 manual, 1 automático)
   int NumeroDePuertas;
