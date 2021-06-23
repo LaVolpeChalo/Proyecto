@@ -39,7 +39,7 @@ typedef struct{
 }tipoMarca;
 
 
-void importarArchivo(HashMap* mapa);
+void importarArchivo(HashMap* mapa,HashMap* mapa2,tipoMarca* mapaMarca);
 void desplegarautos(HashMap* mapa);
 void * buscar_auto(HashMap* mapa);
 

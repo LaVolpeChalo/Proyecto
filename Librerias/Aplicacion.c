@@ -55,7 +55,7 @@ int dentro(HashMap * mapa,char *marca){
 
 }
 
-void importarArchivo(HashMap* mapa){
+void importarArchivo(HashMap* mapa,HashMap* mapa2,tipoMarca* mapaMarca){
 
   char archivo[50];
   printf(cyan"\nIngrese el nombre del archivo a importar: "reset);
@@ -80,7 +80,7 @@ void importarArchivo(HashMap* mapa){
 
         aux = get_csv_field(linea,0);
         strcpy(a->Marca,aux);
-        strcpy(b->Marca,aux);
+        strcpy(mapaMarca->Marca,aux);
 
         aux = get_csv_field(linea,1);
         strcpy(a->modelo, aux);
@@ -108,7 +108,10 @@ void importarArchivo(HashMap* mapa){
 
         a->NumeroDePasajeros = atoi(get_csv_field(linea,12));
         insertMap(mapa,a->modelo,a);
-  
+        // Multimapa
+        insertMap(mapa2,mapaMarca->Marca,mapaMarca);
+        insertMap(mapaMarca->Autos,a->modelo,a);
+
         }
 
     printf(green"\nArchivo importado correctamente\n"reset);
