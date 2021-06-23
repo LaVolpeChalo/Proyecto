@@ -118,14 +118,25 @@ void importarArchivo(HashMap* mapa,HashMap* mapa2,tipoMarca* mapaMarca){
     }
 }
 
+void * buscar_auto(HashMap* mapa);
+
+void busca_auto_nombre();
+
+void agregar_auto();
+
+void ingresar_auto_lista();
+
+void lista_autos();
+
 void desplegarautos(HashMap * mapa){
 	///Primero haré que recorra los mapas así nomas y luego me encargare de la impresión por alfabeto
 	tipoMarca * aux = firstMap(mapa);
 
 
 }
+void concretar_compra();
 
-void * buscar_auto(HashMap * mapa){
-	///printf
-}
+void eliminar_auto_lista();
+
+void eliminar_auto_base();
 
