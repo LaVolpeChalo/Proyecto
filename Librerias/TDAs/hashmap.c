@@ -126,32 +126,44 @@ void * searchMap(HashMap * map,  char * key) {
 }
 
 void * firstMap(HashMap * map) {
-    if (map == NULL || map->buckets == NULL) return NULL;
-    
-    long i;
-    
-    for (i = 0; i < map->capacity; i++) {
-        if (map->buckets[i] != NULL && map->buckets[i]->key != NULL) {
-            map->current = i;
-            return map->buckets[i];
-        }
+long i=0;
+while(i<map->capacity){
+  if(map->buckets[i]!=NULL){
+    if(map->buckets[i]->key==NULL){
+    i++;
+    }else{
+      map->current=i;
+      return map->buckets[i]->value;
     }
-    return NULL;
+  }else{
+    i++;
+  }
+
+}
+  return  NULL;
 }
 
 void * nextMap(HashMap * map) {
-    if (map == NULL || map->buckets == NULL) return NULL;
+long i=1;
+
+while(i<map->capacity){
+  i=map->current+i;
+  
+  if(map->buckets[i]!=NULL){
     
-    long i;
-    
-    for (i = (map->current + 1); i < map->capacity; i++) {
-        if (map->buckets[i] != NULL && map->buckets[i]->key != NULL) {
-            map->current = i;
-            return map->buckets[i];
-        }
+    if(map->buckets[i]->key==NULL){
+      i++;
+    }else{
+      map->current=i;
+      return map->buckets[i]->value;
     }
-    
-    return NULL;
+  
+  }else{
+    i++;
+  }
+
+}
+  return  NULL;
 }
 
 int mapsize(HashMap * map){
