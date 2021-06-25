@@ -45,6 +45,83 @@ char *get_csv_field (char * tmp, int k) {
 	return NULL;
 }
 
+/*Función encargada de convertir los ints booleanos de los datos de un auto en los strings correspondientes
+  Se debe acompañar el int que se envía a la función con el numero de la conversión según sea el caso, estas
+  son las siguientes:
+  
+  Tipo = 1
+  Condición = 2
+  Caja = 3
+  Tracción = 4 */
+char *conversion(int variable,int opcion){
+  switch (opcion){
+
+  case 1:
+  
+      if(variable == 0)return "Auto";
+      else return "Camioneta";
+
+    break;
+
+  case 2:
+
+      if(variable == 0) return "Nuevo";
+      else return "Usado";
+
+    break;
+
+  case 3:
+
+      if(variable == 0) return "Manual";
+      else return "Automatico";
+
+    break;
+
+  case 4:
+
+      if(variable == 0) return "4x2";
+      else return "4x4";
+
+    break;        
+  }
+}
+
+void imprimirdatos(tipoAuto *vehiculo){
+
+  printf(magenta"\n%c %c %c\n",conversion(vehiculo->Tipo,1),vehiculo->Marca,vehiculo->modelo,reset);
+  printf("\n");
+  printf(magenta"Precio: "reset);
+  printf(cyan"%d$CLP",vehiculo->Precio,reset);
+  printf(magenta"\tKilometraje: "reset);
+  printf(cyan"%dKM",vehiculo->kilometraje,reset);
+  printf(magenta"\tAño: "reset);
+  printf(cyan"%d\n",vehiculo->Ano,reset);
+
+  printf(magenta"\nCombustible: "reset);
+  printf(cyan"%s",vehiculo->combustible,reset);
+  printf(magenta"\tCondición: "reset);
+  printf(cyan"%s",conversion(vehiculo->condicion,2),reset);
+  printf(magenta"\tCaja: "reset);
+  printf(cyan"%s\n",conversion(vehiculo->Caja,3),reset);
+
+  printf(magenta"\nNumero de puerta: "reset);
+  printf(cyan"%d",vehiculo->NumeroDePuertas,reset);
+  printf(magenta"\tNumero de pasajeros: "reset);
+  printf(cyan"%d\n",vehiculo->NumeroDePasajeros,reset);
+  
+  printf(magenta"\nMotor: "reset);
+  printf(cyan"%f TDI",vehiculo->Motor,reset);
+  printf(magenta"\tTracción: "reset);
+  printf(cyan"%s",conversion(vehiculo->Traccion,4),reset);
+
+  printf(magenta"Comentario del vendedor:"reset);
+  printf(cyan"%s",vehiculo->Comentario,reset);
+
+}
+
+
+
+//Función para detectar si una marca ya se encuentra en el mapa
 int dentro(HashMap * mapa,char *marca){
 
 	tipoMarca *aux = searchMap(mapa,marca);
@@ -131,9 +208,15 @@ void lista_autos();*/
 
 void desplegarautos(HashMap * mapa){
 	///Primero haré que recorra los mapas así nomas y luego me encargare de la impresión por alfabeto
-	tipoMarca * aux =(tipoMarca*)malloc(sizeof(tipoMarca));
-  aux=firstMap(mapa);
+  printf("a");
+  tipoMarca *auxmarca = firstMap(mapa);
+  printf("b");
+  printf(" %s",auxmarca->Marca);
+  tipoAuto *auxautos = firstMap(auxmarca->Autos);
 
+  printf("dentro");
+  
+  imprimirdatos(auxautos);
 
 }
 /*void concretar_compra();

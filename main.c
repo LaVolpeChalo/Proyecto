@@ -24,58 +24,62 @@ int main(){
         if(opcion == 0) break;
         
         switch(opcion){
-            case 1: importarArchivo(mapa,mapa2,mapaMarca);
-            printf(green"\n Importacion de archivo \n"reset);
+            case 1: printf(magenta"\nImportacion de archivo \n"reset);
+                importarArchivo(mapa,mapa2,mapaMarca);
                 break;
             case 2:
             //Buscar Vehiculos
-            printf(green"\n Buscar Vehiculo \n"reset);
+            printf(magenta"\n Buscar Vehiculo \n"reset);
             void busca_auto_nombre();
                 break;
             case 3:
             //Buscar Vehiculos por nombre
-            printf(green"\n Buscar Vehiculo por Nombre \n"reset);
+            printf(magenta"\n Buscar Vehiculo por Nombre \n"reset);
             void * buscar_auto(HashMap* mapa);
                 break;
             case 4:
             //Agregar Vehiculo
-            printf(green"\n Agregar Vehiculo\n"reset);
+            printf(magenta"\n Agregar Vehiculo\n"reset);
             void agregar_auto();
                 break;
             case 5:
             //Ingresar Auto a lista de Autos Deseados
-            printf(green"\n Ingresar Auto a Lista de Autos Deseados\n"reset);
+            printf(magenta"\n Ingresar Auto a Lista de Autos Deseados\n"reset);
             void ingresar_auto_lista();
                 break;
             case 6:
             //Desplegar lista de Autos Deseados
-            printf(green"\n Lista de Autos Deseados \n"reset);
+            printf(magenta"\n Lista de Autos Deseados \n"reset);
             void lista_autos();
                 break; 
             case 7: 
             //Desplegar Todos los autos
-            printf(green"\n Todos los autos \n"reset);
-                if(mapsize(mapa2) != 0) desplegarautos(mapa);
+                if(mapsize(mapa2) != 0){
+
+                    printf(magenta"\nTodos los autos \n"reset);
+                    desplegarautos(mapa2);
+                    
+                }
                 else printf(red"\nLa base de datos se encuentra vacia\n"reset);
                 break;
             case 8:
             //Concretar Compra
-            printf(green"\n Compra \n"reset);
+            printf(magenta"\nCompra \n"reset);
             void concretar_compra();
                 break;
             case 9:
             //Eliminar Auto de la lista de Autos Deseados
-            printf(green"\n Elimininación de Autos Deseados\n"reset);
+            printf(magenta"\n Elimininación de Autos Deseados\n"reset);
             void eliminar_auto_lista();
                 break;
             case 10:
             // Eliminar Auto de la base de Datos
-            printf(green"\n Eliminacion de Autos Base de Datos \n"reset);
+            printf(magenta"\n Eliminacion de Autos Base de Datos \n"reset);
             void eliminar_auto_base();
                 break;
             case 11:
             //Exportar csv
-            printf(green"\n Exportar CSV \n"reset);
+            printf(magenta"\n Exportar CSV \n"reset);
             void exportar_csv();
                 break;                                   
         }

@@ -12,7 +12,7 @@ typedef struct{
 typedef struct{
   
   int Tipo;	//(si es 0 es auto, si es 1 es camioneta)
-  int condicion;	//(1 usado, 0 nuevo)
+  int condicion;	//(0 nuevo, 1 usado)
   int Ano;
   int Precio;
   int Caja;	//(0 manual, 1 automático)
