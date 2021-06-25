@@ -107,8 +107,9 @@ void importarArchivo(HashMap* mapa,HashMap* mapa2,tipoMarca* mapaMarca){
         a->NumeroDePuertas = atoi(get_csv_field(linea,11));
 
         a->NumeroDePasajeros = atoi(get_csv_field(linea,12));
+
         insertMap(mapa,a->modelo,a);
-        // Multimapa
+        // Multimapa los mapas de aqui abajo
         insertMap(mapa2,mapaMarca->Marca,mapaMarca);
         insertMap(mapaMarca->Autos,a->modelo,a);
 
@@ -118,7 +119,7 @@ void importarArchivo(HashMap* mapa,HashMap* mapa2,tipoMarca* mapaMarca){
     }
 }
 
-void * buscar_auto(HashMap* mapa);
+/*void * buscar_auto(HashMap* mapa);
 
 void busca_auto_nombre();
 
@@ -126,17 +127,18 @@ void agregar_auto();
 
 void ingresar_auto_lista();
 
-void lista_autos();
+void lista_autos();*/
 
 void desplegarautos(HashMap * mapa){
 	///Primero haré que recorra los mapas así nomas y luego me encargare de la impresión por alfabeto
-	tipoMarca * aux = firstMap(mapa);
+	tipoMarca * aux =(tipoMarca*)malloc(sizeof(tipoMarca));
+  aux=firstMap(mapa);
 
 
 }
-void concretar_compra();
+/*void concretar_compra();
 
 void eliminar_auto_lista();
 
-void eliminar_auto_base();
+void eliminar_auto_base();*/
 
