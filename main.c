@@ -8,7 +8,8 @@
 int main(){
     HashMap* mapa=createMap(85);
     HashMap* mapa2=createMap(85);
-    tipoMarca* mapaMarca;
+    list* lista=createList();
+    tipoMarca* mapaMarca=(tipoMarca*)malloc(sizeof(tipoMarca));
     mapaMarca->Autos=createMap(85);
 
     short opcion;
@@ -54,7 +55,7 @@ int main(){
             case 7: 
             //Desplegar Todos los autos
             printf(green"\n Todos los autos \n"reset);
-                if(mapsize(mapa) != 0) desplegarautos(mapa);
+                if(mapsize(mapa2) != 0) desplegarautos(mapa);
                 else printf(red"\nLa base de datos se encuentra vacia\n"reset);
                 break;
             case 8:
@@ -76,7 +77,7 @@ int main(){
             //Exportar csv
             printf(green"\n Exportar CSV \n"reset);
             void exportar_csv();
-                break;                                    
+                break;                                   
         }
 
 
