@@ -7,10 +7,7 @@
 
 int main(){
     HashMap* mapa=createMap(85);
-    HashMap* mapa2=createMap(85);
     list* lista=createList();
-    tipoMarca* mapaMarca=(tipoMarca*)malloc(sizeof(tipoMarca));
-    mapaMarca->Autos=createMap(85);
 
     short opcion;
 
@@ -25,7 +22,7 @@ int main(){
         
         switch(opcion){
             case 1: printf(magenta"\nImportacion de archivo \n"reset);
-                importarArchivo(mapa,mapa2,mapaMarca);
+                importarArchivo(mapa);
                 break;
             case 2:
             //Buscar Vehiculos
@@ -54,10 +51,10 @@ int main(){
                 break; 
             case 7: 
             //Desplegar Todos los autos
-                if(mapsize(mapa2) != 0){
+                if(mapsize(mapa) != 0){
 
                     printf(magenta"\nTodos los autos \n"reset);
-                    desplegarautos(mapa2);
+                    desplegarautos(mapa);
                     
                 }
                 else printf(red"\nLa base de datos se encuentra vacia\n"reset);

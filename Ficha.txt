@@ -1,0 +1,17 @@
+
+
+
+Tipo - Marca - Modelo
+
+Precio:   Kilometraje:  Año:
+
+Combustible:   Condición:  Caja:
+
+Numero de puertas: Numero de pasajeros:
+
+Motor: Tracción:
+
+Comentario:
+
+
+

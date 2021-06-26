@@ -1,83 +1,83 @@
-Chevrolet,Apache,1,2.4,1,1,0,2010,6.000.000,120.000,bencina,4,5
-Chevrolet,	Astra,0,	2.0,	1,	0,	0,	2010,	8.500.000,	85.000,	bencina,	2,	5
-Chevrolet,	Aveo,	0,	1.4,	1,	0,	0,	2016,	6.800.000,	116.765,	bencina,	4,	5
-Chevrolet,	Camaro,	0,	6.2,	1,	0,	1,	2017,	29.900.000,	63.000,	bencina,	2,	2
-Chevrolet,	Cavalier,	0,	1.5,	0,	0,	0,	2021,	10.290.000,	0,	bencina,	4,	5
-Chevrolet,	Captiva,	1,	2.2,	1,	0,	0,	2015,	11.700.000,	167.500,	diesel,	4,	7
-Chevrolet,	Cobalt,	0,	1.8,	1,	0,	0,	2018,	8.790.000,	23.000,	bencina,	4,	5
-Chevrolet,	Corsa Sport,	0,	1.6,	1,	0,	0,	2004,	2.500.000,	220.000,	bencina,	2,	5
-Chevrolet,	Corsa,	0,	1.6,	1,	0,	0,	2006,	3.200.000,	180.000,	bencina,	4,	5
-Chevrolet,	Corvette,	0,	6.2,	1,	0,	1,	2010,	32.450.000,	32.000,	bencina,	2,	2
-Chevrolet,	Cruze,	0,	1.8,	1,	0,	0,	2014,	7.600.000,	130.000,	bencina,	4,	5
-Chevrolet,	d-max,	1,	2.5,	1,	1,	0,	2018,	18.290.000,	79.000,	diesel,	4,	5
-Chevrolet,	Luv,	1,	1.6,	1,	0,	0,	1993,	3.500.000,	274.302,	bencina,	4,	5
-Chevrolet,	Montana,	1,	1.8,	1,	0,	0,	2013,	6.400.000,	120.000,	bencina,	2,	2
-Chevrolet,	Monza,	0,	1.7,	1,	0,	0,	1992,	1.200.000,	185.000,	bencina,	4,	5
-Chevrolet,	Onix,	0,	1.0,	0,	0,	1,	2020,	11.190.000,	0,	bencina,	4,	5
-Chevrolet,	Orlando,	1,	2.4,	1,	0,	1,	2019,	13.200.000,	15.000,	diesel,	4,	7
-Chevrolet,	Prisma,	0,	1.4,	0,	0,	1,	2021,	10.000.000,	0,	bencina,	4,	5
-Chevrolet,	s10,	1,	4.3,	1,	1,	1,	2000,	7.150.000,	180.000,	bencina,	4,	5
-Chevrolet,	Sail,	0,	1.4,	1,	0,	0,	2017,	7.950.000,	79.000,	bencina,	4,	5
-Chevrolet,	Silverado,	1,	5.3,	1,	1,	1,	2018,	30.940.000,	83.500,	bencina,	4,	5
-Chevrolet,	Sonic,	0,	1.6,	1,	0,	1,	2015,	6.900.000,	80.000,	bencina,	4,	5
-Chevrolet,	Spark,	0,	1.2,	0,	0,	0,	2020,	7.190.000,	0,	bencina,	4,	5
-Chevrolet,	Suburban,	1,	5.3,	1,	1,	1,	2014,	20.990.000,	136.000,	diesel,	4,	7
-Chevrolet,	Vectra,	0,	2.2,	1,	0,	0,	2007,	5.500.000,	190.000,	bencina,	4,	5
-Chevrolet,	Zafira,	1,	2.0,	1,	0,	0,	2004,	3.800.000,	80.000,	bencina,	4,	5
-Hyundai,	Accent,	0,	1.4,	1,	0,	0,	2011,	9.000.000,	77.000,	bencina,	4,	5
-Hyundai,	Elantra,	0,	1.6,	1,	0,	1,	2019,	11.890.000,	61.000,	bencina,	4,	5
-Hyundai,	Eon,	0,	0.8,	1,	0,	0,	2017,	6.400.000,	40.000,	bencina,	2,	4
-Hyundai,	Equus,	0,	4.6,	1,	0,	1,	2013,	18.000.000,	110.000,	bencina,	4,	5
-Hyundai,	Excel,	0,	0.6,	1,	0,	0,	1993,	500.000,	330.000,	bencina,	2,	4
-Hyundai,	Galloper,	1,	2.5,	1,	1,	0,	2000,	5.450.000,	250.000,	diesel,	4,	5
-Hyundai,	Genesis,	0,	3.8,	1,	0,	1,	2017,	39.000.000,	40.000,	bencina,	2,	4
-Hyundai,	Grand i10,	0,	1.2,	1,	0,	0,	2018,	7.400.000,	26.500,	bencina,	2,	4
-Hyundai,	Santa fe,	1,	2.4,	1,	0,	1,	2012,	9.800.000,	128.000,	bencina,	4,	7
-Hyundai,	h1,	1,	2.5,	1,	1,	0,	2017,	18.000.000,	87.000,	diesel,	4,	9
-Hyundai,	h100,	1,	2.5,	1,	0,	0,	2002,	4.500.000,	163.000,	diesel,	4,	11
-Hyundai,	i10,	0,	1.2,	1,	0,	1,	2016,	7.690.000,	137.000,	bencina,	4,	5
-Hyundai,	i20,	0,	1.4,	1,	0,	0,	2019,	10.690.000,	40.000,	bencina,	4,	5
-Hyundai,	i30,	0,	2.0,	0,	0,	1,	2021,	18.000.000,	0,	bencina,	4,	5
-Hyundai,	Matrix,	1,	2.5,	1,	0,	0,	2007,	4.800.000,	277.000,	diesel,	4,	5
-Hyundai,	Tucson,	1,	2.0,	1,	1,	1,	2017,	17.400.000,	143.000,	diesel,	3,	5
-Hyundai,	Sonata,	0,	2.4,	1,	0,	1,	2015,	14.900.000,	36.000,	bencina,	4,	5
-Hyundai,	Veloster,	0,	2.0,	0,	0,	0,	2020,	15.990.000,	0,	bencina,	4,	5
-Hyundai,	Veracruz,	1,	3.8,	1,	0,	1,	2008,	9.800.000,	116.500,	bencina,	4,	7
-Hyundai,	Verna,	0,	1.4,	0,	0,	0,	2021,	9.590.000,	0,	bencina,	4,	5
-Toyota,	4runner,	1,	4.0,	1,	1,	1,	2012,	19.000.000,	221.200,	bencina,	4,	8
-Toyota,	Auris,	0,	1.6,	1,	0,	0,	2014,	10.280.000,	54.000,	bencina,	4,	5
-Toyota,	Avensis,	0,	2.0,	1,	0,	1,	2013,	8.300.000,	189.700,	bencina,	4,	5
-Toyota,	Corolla,	0,	1.8,	1,	0,	1,	2018,	12.300.000,	17.000,	bencina,	4,	5
-Toyota,	Corona,	0,	1.4,	1,	0,	1,	1994,	2.300.000,	339.000,	bencina,	4,	5
-Toyota,	Fortuner,	1,	2.7,	0,	1,	1,	2020,	28.500.000,	0,	bencina,	4,	8
-Toyota,	Hilux,	1,	2.4,	1,	1,	0,	2018,	18.000.000,	58.600,	diesel,	4,	5
-Toyota,	Land  cruiser,	1,	2.7,	1,	1,	1,	2013,	15.900.000,	145.000,	bencina,	2,	5
-Toyota,	Prius,	0,	1.8,	1,	0,	1,	2018,	19.990.000,	32.000,	electrico,	4,	5
-Toyota,	Rav4,	1,	2.4,	1,	0,	1,	2016,	16.000.000,	140.000,	bencina,	4,	5
-Toyota,	Supra,	0,	2.0,	1,	0,	1,	2000,	12.000.000,	97.000,	bencina,	2,	2
-Toyota,	Tacoma,	1,	3.5,	0,	1,	1,	2021,	54.000.000,	0,	diesel,	4,	5
-Toyota,	Tercel,	0,	1.4,	1,	0,	0,	1997,	200.000,	185.000,	bencina,	4,	5
-Toyota,	Tundra,	1,	5.7,	1,	1,	1,	2011,	21.000.000,	127.000,	bencina,	4,	5
-Toyota,	Yaris,	0,	1.5,	1,	0,	0,	2016,	10.790.000,	83.000,	bencina,	4,	5
-Toyota,	Yaris Sport,	0,	1.5,	1,	0,	0,	2017,	9.800.000,	97.000,	bencina,	2,	5
-Toyota,	Zelas,	0,	2.5,	1,	0,	1,	2012,	7.890.000,	245.000,	bencina,	4,	5
-Nissan,	350z,	0,	3.5,	1,	0,	1,	2005,	10.500.000,	114.000,	bencina,	2,	2
-Nissan,	370z,	0,	3.7,	1,	0,	1,	2013,	18.900.000,	56.000,	bencina,	2,	2
-Nissan,	Bluebird,	0,	1.2,	1,	0,	0,	1987,	2.200.000,	176.000,	bencina,	4,	5
-Nissan,	d21,	1,	2.4,	1,	0,	0,	2000,	4.800.000,	338.000,	bencina,	4,	5
-Nissan,	Juke,	0,	1.6,	1,	1,	1,	2017,	13.200.000,	40.000,	bencina,	2,	5
-Nissan,	Kicks,	1,	1.6,	1,	0,	0,	2018,	12.500.000,	40.000,	bencina,	4,	5
-Nissan,	March,	0,	1.6,	1,	0,	0,	2016,	7.000.000,	26.000,	bencina,	4,	5
-Nissan,	Maxima,	0,	1.8,	1,	0,	1,	2001,	4.000.000,	120.000,	bencina,	4,	5
-Nissan,	Navara,	1,	2.5,	1,	1,	0,	2013,	12.000.000,	235.000,	diesel,	4,	5
-Nissan,	np300,	1,	2.3,	1,	1,	0,	2019,	24.900.000,	29.000,	diesel,	4,	5
-Nissan,	Platina,	0,	1.6,	1,	0,	0,	2008,	3.000.000,	358.000,	bencina,	4,	5
-Nissan,	Qashqai,	1,	2.0,	1,	0,	0,	2012,	10.000.000,	99.000,	bencina,	4,	5
-Nissan,	Sentra,	0,	1.8,	1,	0,	1,	2018,	10.300.000,	54.000,	bencina,	4,	5
-Nissan,	Skyline,	0,	2.5,	1,	0,	1,	2003,	12.500.000,	63.000,	bencina,	2,	2
-Nissan,	Terrano,	1,	2.5,	1,	1,	0,	2012,	14.000.000,	90.000,	diesel,	4,	5
-Nissan,	Tiida,	0,	1.6,	1,	0,	0,	2013,	6.300.000,	140.000,	bencina,	4,	5
-Nissan,	Titan,	1,	3.0,	1,	1,	1,	2017,	39.000.000,	131.000,	diesel,	4,	5
-Nissan,	v16,	0,	1.6,	1,	0,	0,	2007,	2.600.000,	200.000,	bencina,	4,	5
-Nissan,	Versa,	0,	1.6,	1,	0,	1,	2016,	8.900.000,	97.000,	bencina,	4,	5
-Nissan,	X-trail,	1,	2.5,	1,	1,	1,	2019,	16.000.000,	38.000,	bencina,	4,	5
+Chevrolet,Apache,1,2.4,1,1,0,2010,6000000,120000,Bencina,4,5
+Chevrolet,Astra,0,	2.0,	1,	0,	0,	2010,	8500000,	85000,Bencina,	2,	5
+Chevrolet,Aveo,	0,	1.4,	1,	0,	0,	2016,	6800000,	116765,Bencina,	4,	5
+Chevrolet,Camaro,	0,	6.2,	1,	0,	1,	2017,	29900000,	63000,Bencina,	2,	2
+Chevrolet,Cavalier,	0,	1.5,	0,	0,	0,	2021,	10290000,	0,Bencina,	4,	5
+Chevrolet,Captiva,	1,	2.2,	1,	0,	0,	2015,	11700000,	167500,Diesel,	4,	7
+Chevrolet,Cobalt,	0,	1.8,	1,	0,	0,	2018,	8790000,	23000,Bencina,	4,	5
+Chevrolet,Corsa Sport,	0,	1.6,	1,	0,	0,	2004,	2500000,	220000,Bencina,	2,	5
+Chevrolet,Corsa,	0,	1.6,	1,	0,	0,	2006,	3200000,	180000,Bencina,	4,	5
+Chevrolet,Corvette,	0,	6.2,	1,	0,	1,	2010,	32450000,	32000,Bencina,	2,	2
+Chevrolet,Cruze,	0,	1.8,	1,	0,	0,	2014,	7600000,	130000,Bencina,	4,	5
+Chevrolet,d-max,	1,	2.5,	1,	1,	0,	2018,	18290000,	79000,Diesel,	4,	5
+Chevrolet,Luv,	1,	1.6,	1,	0,	0,	1993,	3500000,	274302,Bencina,	4,	5
+Chevrolet,Montana,	1,	1.8,	1,	0,	0,	2013,	6400000,	120000,Bencina,	2,	2
+Chevrolet,Monza,	0,	1.7,	1,	0,	0,	1992,	1200000,	185000,Bencina,	4,	5
+Chevrolet,Onix,	0,	1.0,	0,	0,	1,	2020,	11190000,	0,Bencina,	4,	5
+Chevrolet,Orlando,	1,	2.4,	1,	0,	1,	2019,	13200000,	15000,Diesel,	4,	7
+Chevrolet,Prisma,	0,	1.4,	0,	0,	1,	2021,	10000000,	0,Bencina,	4,	5
+Chevrolet,s10,	1,	4.3,	1,	1,	1,	2000,	7150000,	180000,Bencina,	4,	5
+Chevrolet,Sail,	0,	1.4,	1,	0,	0,	2017,	7950000,	79000,Bencina,	4,	5
+Chevrolet,Silverado,	1,	5.3,	1,	1,	1,	2018,	30940000,	83500,Bencina,	4,	5
+Chevrolet,Sonic,	0,	1.6,	1,	0,	1,	2015,	6900000,	80000,Bencina,	4,	5
+Chevrolet,Spark,	0,	1.2,	0,	0,	0,	2020,	7190000,	0,Bencina,	4,	5
+Chevrolet,Suburban,	1,	5.3,	1,	1,	1,	2014,	20990000,	136000,Diesel,	4,	7
+Chevrolet,Vectra,	0,	2.2,	1,	0,	0,	2007,	5500000,	190000,Bencina,	4,	5
+Chevrolet,Zafira,	1,	2.0,	1,	0,	0,	2004,	3800000,	80000,Bencina,	4,	5
+Hyundai,Accent,	0,	1.4,	1,	0,	0,	2011,	9000000,	77000,Bencina,	4,	5
+Hyundai,Elantra,	0,	1.6,	1,	0,	1,	2019,	11890000,	61000,Bencina,	4,	5
+Hyundai,Eon,	0,	0.8,	1,	0,	0,	2017,	6400000,	40000,Bencina,	2,	4
+Hyundai,Equus,	0,	4.6,	1,	0,	1,	2013,	18000000,	110000,Bencina,	4,	5
+Hyundai,Excel,	0,	0.6,	1,	0,	0,	1993,	500000,	330000,Bencina,	2,	4
+Hyundai,Galloper,	1,	2.5,	1,	1,	0,	2000,	5450000,	250000,Diesel,	4,	5
+Hyundai,Genesis,	0,	3.8,	1,	0,	1,	2017,	39000000,	40000,Bencina,	2,	4
+Hyundai,Grand i10,	0,	1.2,	1,	0,	0,	2018,	7400000,	26500,Bencina,	2,	4
+Hyundai,Santa fe,	1,	2.4,	1,	0,	1,	2012,	9800000,	128000,Bencina,	4,	7
+Hyundai,h1,	1,	2.5,	1,	1,	0,	2017,	18000000,	87000,Diesel,	4,	9
+Hyundai,h100,	1,	2.5,	1,	0,	0,	2002,	4500000,	163000,Diesel,	4,	11
+Hyundai,i10,	0,	1.2,	1,	0,	1,	2016,	7690000,	137000,Bencina,	4,	5
+Hyundai,i20,	0,	1.4,	1,	0,	0,	2019,	10690000,	40000,Bencina,	4,	5
+Hyundai,i30,	0,	2.0,	0,	0,	1,	2021,	18000000,	0,Bencina,	4,	5
+Hyundai,Matrix,	1,	2.5,	1,	0,	0,	2007,	4800000,	277000,Diesel,	4,	5
+Hyundai,Tucson,	1,	2.0,	1,	1,	1,	2017,	17400000,	143000,Diesel,	3,	5
+Hyundai,Sonata,	0,	2.4,	1,	0,	1,	2015,	14900000,	36000,Bencina,	4,	5
+Hyundai,Veloster,	0,	2.0,	0,	0,	0,	2020,	15990000,	0,Bencina,	4,	5
+Hyundai,Veracruz,	1,	3.8,	1,	0,	1,	2008,	9800000,	116500,Bencina,	4,	7
+Hyundai,Verna,	0,	1.4,	0,	0,	0,	2021,	9590000,	0,Bencina,	4,	5
+Toyota,4runner,	1,	4.0,	1,	1,	1,	2012,	19000000,	221200,Bencina,	4,	8
+Toyota,Auris,	0,	1.6,	1,	0,	0,	2014,	10280000,	54000,Bencina,	4,	5
+Toyota,Avensis,	0,	2.0,	1,	0,	1,	2013,	8300000,	189700,Bencina,	4,	5
+Toyota,Corolla,	0,	1.8,	1,	0,	1,	2018,	12300000,	17000,Bencina,	4,	5
+Toyota,Corona,	0,	1.4,	1,	0,	1,	1994,	2300000,	339000,Bencina,	4,	5
+Toyota,Fortuner,	1,	2.7,	0,	1,	1,	2020,	28500000,	0,Bencina,	4,	8
+Toyota,Hilux,	1,	2.4,	1,	1,	0,	2018,	18000000,	58600,Diesel,	4,	5
+Toyota,Land  cruiser,	1,	2.7,	1,	1,	1,	2013,	15900000,	145000,Bencina,	2,	5
+Toyota,Prius,	0,	1.8,	1,	0,	1,	2018,	19990000,	32000,Electrico,	4,	5
+Toyota,Rav4,	1,	2.4,	1,	0,	1,	2016,	16000000,	140000,Bencina,	4,	5
+Toyota,Supra,	0,	2.0,	1,	0,	1,	2000,	12000000,	97000,Bencina,	2,	2
+Toyota,Tacoma,	1,	3.5,	0,	1,	1,	2021,	54000000,	0,Diesel,	4,	5
+Toyota,Tercel,	0,	1.4,	1,	0,	0,	1997,	200000,	185000,Bencina,	4,	5
+Toyota,Tundra,	1,	5.7,	1,	1,	1,	2011,	21000000,	127000,Bencina,	4,	5
+Toyota,Yaris,	0,	1.5,	1,	0,	0,	2016,	10790000,	83000,Bencina,	4,	5
+Toyota,Yaris Sport,	0,	1.5,	1,	0,	0,	2017,	9800000,	97000,Bencina,	2,	5
+Toyota,Zelas,	0,	2.5,	1,	0,	1,	2012,	7890000,	245000,Bencina,	4,	5
+Nissan,350z,	0,	3.5,	1,	0,	1,	2005,	10500000,	114000,Bencina,	2,	2
+Nissan,370z,	0,	3.7,	1,	0,	1,	2013,	18900000,	56000,Bencina,	2,	2
+Nissan,Bluebird,	0,	1.2,	1,	0,	0,	1987,	2200000,	176.000,Bencina,	4,	5
+Nissan,d21,	1,	2.4,	1,	0,	0,	2000,	4800000,	338000,Bencina,	4,	5
+Nissan,Juke,	0,	1.6,	1,	1,	1,	2017,	13200000,	40000,Bencina,	2,	5
+Nissan,Kicks,	1,	1.6,	1,	0,	0,	2018,	12500000,	40000,Bencina,	4,	5
+Nissan,March,	0,	1.6,	1,	0,	0,	2016,	7000000,	26000,Bencina,	4,	5
+Nissan,Maxima,	0,	1.8,	1,	0,	1,	2001,	4000000,	120000,Bencina,	4,	5
+Nissan,Navara,	1,	2.5,	1,	1,	0,	2013,	12000000,	235000,Diesel,	4,	5
+Nissan,np300,	1,	2.3,	1,	1,	0,	2019,	24900000,	29000,Diesel,	4,	5
+Nissan,Platina,	0,	1.6,	1,	0,	0,	2008,	3000000,	358000,Bencina,	4,	5
+Nissan,Qashqai,	1,	2.0,	1,	0,	0,	2012,	10000000,	99000,Bencina,	4,	5
+Nissan,Sentra,	0,	1.8,	1,	0,	1,	2018,	10300000,	54000,Bencina,	4,	5
+Nissan,Skyline,	0,	2.5,	1,	0,	1,	2003,	12500000,	63000,Bencina,	2,	2
+Nissan,Terrano,	1,	2.5,	1,	1,	0,	2012,	14000000,	90000,Diesel,	4,	5
+Nissan,Tiida,	0,	1.6,	1,	0,	0,	2013,	6300000,	140000,Bencina,	4,	5
+Nissan,Titan,	1,	3.0,	1,	1,	1,	2017,	39000000,	131000,Diesel,	4,	5
+Nissan,v16,	0,	1.6,	1,	0,	0,	2007,	2600000,	200000,Bencina,	4,	5
+Nissan,Versa,	0,	1.6,	1,	0,	1,	2016,	8900000,	97000,Bencina,	4,	5
+Nissan,X-trail,	1,	2.5,	1,	1,	1,	2019,	16000000,	38000,Bencina,	4,	5
