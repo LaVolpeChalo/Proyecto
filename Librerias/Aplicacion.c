@@ -199,7 +199,7 @@ void importarArchivo(HashMap* mapa){
 
           }else{
 
-            printf("Marca nueva (%s) - "),a->Marca;
+            printf("Marca nueva (%s) - ",a->Marca);
             tipoMarca *puntero = (tipoMarca*)calloc(1,sizeof(tipoMarca));
             puntero->Autos = createMap(10);
             strcpy(puntero->Marca,a->Marca);
@@ -216,7 +216,19 @@ void importarArchivo(HashMap* mapa){
 
 /*void * buscar_auto(HashMap* mapa);
 
-void busca_auto_nombre();
+void busca_auto_nombre(HashMap* mapa){
+  char modelo[50]
+  printf(cyan"\nIngrese el modelo del vehiculo que quiere buscar: "reset);
+  scanf("%s",modelo);
+  tipoAuto* auto = firstmap(mapa);
+  while(auto!=NULL){
+
+    if(strcmp(auto->modelo,modelo)==0){
+      printf()
+    }
+    auto = nextMap(mapa);
+  }
+}
 
 void agregar_auto();
 
