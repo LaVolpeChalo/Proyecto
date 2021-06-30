@@ -12,5 +12,6 @@
 #define white "\e[97m"
 
 void desplegarMenu();
+void menu_filtros(int *usadas);
 
 #endif

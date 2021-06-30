@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "Librerias/TDAs/hashmap.h"
-#include "Librerias/Interfaz/Interfaz.h"
+#include "Librerias/Utilidades/TDAs/hashmap.h"
+#include "Librerias/Utilidades/Interfaz.h"
 #include "Librerias/Aplicacion.h"
-#include "Librerias/TDAs/list.h"
+#include "Librerias/Utilidades/TDAs/list.h"
+#include "Librerias/filtros.h"
 
 int main(){
     HashMap* mapa=createMap(85);
@@ -26,8 +27,12 @@ int main(){
                 break;
             case 2:
             //Buscar Vehiculos
-            printf(magenta"\n Buscar Vehiculo \n"reset);
-            void busca_auto_nombre();
+                if(mapsize(mapa) != 0){
+                    printf(magenta"\nBuscar Vehiculos por filtro\n"reset);
+                    filtrar_autos(mapa);
+
+                }
+                else printf(red"\nLa base de datos se encuentra vacia\n"reset);
                 break;
             case 3:
             //Buscar Vehiculos por nombre
@@ -78,7 +83,16 @@ int main(){
             //Exportar csv
             printf(magenta"\n Exportar CSV \n"reset);
             void exportar_csv();
-                break;                                   
+                break; 
+            case 0:
+
+            printf(green"\nCerrando aplicacion\n"reset);
+                break;
+
+            default: 
+
+            printf(red"\nIngrese una opcion valida\n"reset); 
+                break;                                      
         }
 
 

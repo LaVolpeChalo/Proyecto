@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <string.h>
 #include "Aplicacion.h"
-#include "TDAs/hashmap.h"
-#include "TDAs/list.h"
-#include "Interfaz/Interfaz.h"
+#include "Utilidades/TDAs/hashmap.h"
+#include "Utilidades/TDAs/list.h"
+#include "Utilidades/Interfaz.h"
 
 char *get_csv_field (char * tmp, int k) {
 	int open_mark = 0;
@@ -58,29 +58,29 @@ char *conversion(int variable,int opcion){
 
   case 1:
   
-      if(variable == 0)return "Auto";
-      else return "Camioneta";
+      if(variable)return "Camioneta";
+      else return "Auto";
 
     break;
 
   case 2:
 
-      if(variable == 0) return "Nuevo";
-      else return "Usado";
+      if(variable) return "Usado";
+      else return "Nuevo";
 
     break;
 
   case 3:
 
-      if(variable == 0) return "Manual";
-      else return "Automatico";
+      if(variable) return "Automatico";
+      else return "Manual";
 
     break;
 
   case 4:
 
-      if(variable == 0) return "4x2";
-      else return "4x4";
+      if(variable) return "4x4";
+      else return "4x2";
 
     break;        
   }
@@ -124,7 +124,7 @@ void imprimirdatos(tipoAuto *vehiculo){
 
 /*Función para detectar si una marca ya se encuentra en el mapa
   0 = No está dentro
-  1 = Sí está dentro*/
+  1 = Si está dentro*/
 int dentro(HashMap * mapa,char *marca){
 
   if(mapsize(mapa)==0) return 0;
@@ -199,7 +199,6 @@ void importarArchivo(HashMap* mapa){
 
           }else{
 
-            printf("Marca nueva (%s) - ",a->Marca);
             tipoMarca *puntero = (tipoMarca*)calloc(1,sizeof(tipoMarca));
             puntero->Autos = createMap(10);
             strcpy(puntero->Marca,a->Marca);
@@ -213,6 +212,9 @@ void importarArchivo(HashMap* mapa){
 
     }
 }
+
+
+
 
 /*void * buscar_auto(HashMap* mapa);
 
@@ -238,12 +240,11 @@ void lista_autos();*/
 
 void desplegarautos(HashMap * mapa){
 	///Primero haré que recorra los mapas así nomas y luego me encargare de la impresión por alfabeto
-  tipoMarca *auxmarca;
+  tipoMarca *auxmarca = firstMap(mapa);;
   tipoAuto *auxtos;
 
-  auxmarca = firstMap(mapa);
 
-  for(int i = 0;i < mapsize(mapa)-1;i++){
+  for(int i = 0;i < mapsize(mapa);i++){
 
     printf(green"\n%s\n",auxmarca->Marca,reset);
 

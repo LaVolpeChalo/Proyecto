@@ -1,7 +1,7 @@
 #ifndef Aplicacion_h
 #define Aplicacion_h
-#include "TDAs/hashmap.h"
-#include "TDAs/list.h"
+#include "Utilidades/TDAs/hashmap.h"
+#include "Utilidades/TDAs/list.h"
 
 typedef struct{
    char Vendedor[50];
@@ -40,7 +40,6 @@ typedef struct{
 
 
 void importarArchivo(HashMap* mapa);
-void * buscar_auto(HashMap* mapa);
 void busca_auto_nombre();
 void agregar_auto();
 void ingresar_auto_lista();
@@ -50,6 +49,7 @@ void concretar_compra();
 void eliminar_auto_lista();
 void eliminar_auto_base();
 void exportar_csv();
+void imprimirdatos(tipoAuto *vehiculo);
 
 
 
