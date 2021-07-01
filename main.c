@@ -42,7 +42,7 @@ int main(){
             case 4:
             //Agregar Vehiculo
             printf(magenta"\n Agregar Vehiculo\n"reset);
-            void agregar_auto();
+             agregar_auto(mapa);
                 break;
             case 5:
             //Ingresar Auto a lista de Autos Deseados

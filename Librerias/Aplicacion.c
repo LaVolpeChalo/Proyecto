@@ -213,34 +213,106 @@ void importarArchivo(HashMap* mapa){
     }
 }
 
+//Funcion para ingreso de nuevo auto a Mapa
+tipoAuto* crearAuto(char* Marca, char* modelo, int Tipo, float Motor, int condicion, int traccion, int Caja, int anno, long int Precio, int kilometraje, char* combustible, int puertas, int pasajeros ){
+
+  tipoAuto* auxauto=(tipoAuto*)malloc(sizeof(tipoAuto));
+
+  strcpy(auxauto->Marca,Marca);
+  strcpy(auxauto->modelo,modelo);
+  auxauto->Tipo=Tipo;
+  auxauto->Motor=Motor;
+  auxauto->condicion=condicion;
+  auxauto->Traccion=traccion;
+  auxauto->Caja=Caja;
+  auxauto->Ano=anno;
+  auxauto->Precio=Precio;
+  auxauto->kilometraje=kilometraje;
+  strcpy(auxauto->combustible,combustible);
+  auxauto->NumeroDePuertas=puertas;
+  auxauto->NumeroDePasajeros=pasajeros;
+
+  return auxauto;
+
+}
 
 
 
 /*void * buscar_auto(HashMap* mapa);
 
 void busca_auto_nombre(HashMap* mapa){
-  char modelo[50]
+  char* modelo;
   printf(cyan"\nIngrese el modelo del vehiculo que quiere buscar: "reset);
   scanf("%s",modelo);
-  tipoAuto* auto = firstmap(mapa);
-  while(auto!=NULL){
+  tipoMarca* auxmarca=(tipoMarca*)malloc(sizeof(tipoMarca));
+  tipoAuto* automovil = searchMap(auxmarca->Autos,modelo);
+  printf("\n%s\n",automovil->modelo);
+  auxmarca = searchMap(mapa,automovil->Marca);
 
-    if(strcmp(auto->modelo,modelo)==0){
-      printf()
+  while(automovil!=NULL){
+
+    if(strcmp(automovil->modelo,modelo)==0){
+      imprimirdatos(automovil);
     }
-    auto = nextMap(mapa);
+    automovil = nextMap(auxmarca->Autos);
   }
+}*/
+
+void agregar_auto(HashMap* mapa){
+
+  int Tipo;	//(si es 0 es auto, si es 1 es camioneta)
+  int condicion;	//(0 nuevo, 1 usado)
+  int Ano;
+  long int Precio;
+  int Caja;	//(0 manual, 1 automático)
+  int NumeroDePuertas;
+  int NumeroDePasajeros;
+  char Marca[20];
+  int Traccion; //(0 si es 4x2, 1 si es 4x4)
+  float Motor;
+  char combustible[10];
+  int kilometraje; 
+  char Comentario[301];
+  char modelo[50];
+
+  printf(cyan"\nIngrese la marca de su nuevo vehiculo: "reset);
+  scanf("%s",Marca);
+  printf(cyan"Ingrese el modelo de su nuevo vehiculo: "reset);
+  scanf("%s",modelo);
+  printf(cyan"Ingrese el tipo de su auto ( 0 si es auto, 1 si es camioneta ): "reset);
+  scanf("%d",&Tipo);
+  printf(cyan"Ingrese el motor de su nuevo vehiculo: "reset);
+  scanf("%f",&Motor);
+  printf(cyan"Ingrese la condicion en la que se encuentra su vehiculo( 0 si es nuevo, 1 si es usado ): "reset);
+  scanf("%d",&condicion);
+  printf(cyan"Ingrese la traccion de su vehiculo(0 si es 4x2, 1 si es 4x4): "reset);
+  scanf("%d",&Traccion);
+  printf(cyan"Ingrese la caja de cambios de su vehiculo(0 si es manual, 1 si es automático): "reset);
+  scanf("%d",&Caja);
+  printf(cyan"Ingrese el anno de salida de su nuevo vehiculo: "reset);
+  scanf("%d",&Ano);
+  printf(cyan"Ingrese el valor de su nuevo vehiculo: "reset);
+  scanf("%ld",&Precio);
+  printf(cyan"Ingrese el kilometraje de su nuevo vehiculo: "reset);
+  scanf("%d",&kilometraje);
+  printf(cyan"Ingrese el tipo de combustible acorde a su nuevo vehiculo: "reset);
+  scanf("%s",combustible);
+  printf(cyan"Ingrese el numero de puertas: "reset);
+  scanf("%d",&NumeroDePuertas);
+  printf(cyan"Ingrese la cantidad de pasajeros: "reset);
+  scanf("%d",&NumeroDePasajeros);
+
+  tipoAuto* nuevoAuto=crearAuto(Marca,modelo,Tipo,Motor,condicion,Traccion,Caja,Ano,Precio,kilometraje,combustible,NumeroDePuertas,NumeroDePasajeros);
+
 }
 
-void agregar_auto();
-
-void ingresar_auto_lista();
+/*void ingresar_auto_lista();
 
 void lista_autos();*/
 
 void desplegarautos(HashMap * mapa){
 	///Primero haré que recorra los mapas así nomas y luego me encargare de la impresión por alfabeto
-  tipoMarca *auxmarca = firstMap(mapa);;
+  tipoMarca *auxmarca = firstMap(mapa);
   tipoAuto *auxtos;
 
 
