@@ -304,6 +304,23 @@ void agregar_auto(HashMap* mapa){
 
   tipoAuto* nuevoAuto=crearAuto(Marca,modelo,Tipo,Motor,condicion,Traccion,Caja,Ano,Precio,kilometraje,combustible,NumeroDePuertas,NumeroDePasajeros);
 
+          if(dentro(mapa,nuevoAuto->Marca)){
+
+            tipoMarca *puntero = searchMap(mapa,nuevoAuto->Marca);
+            insertMap(puntero->Autos,nuevoAuto->modelo,nuevoAuto);
+            //printf("Marca vieja - ");
+
+          }else{
+
+            tipoMarca *puntero = (tipoMarca*)calloc(1,sizeof(tipoMarca));
+            puntero->Autos = createMap(10);
+            strcpy(puntero->Marca,nuevoAuto->Marca);
+            insertMap(mapa,nuevoAuto->Marca,puntero);
+            insertMap(puntero->Autos,nuevoAuto->modelo,nuevoAuto);
+
+          }
+        
+
 }
 
 /*void ingresar_auto_lista();
