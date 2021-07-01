@@ -7,7 +7,7 @@
 #include "Librerias/filtros.h"
 
 int main(){
-    HashMap* mapa=createMap(85);
+    HashMap* mapa=createMap(200);
     list* lista=createList();
 
     short opcion;
