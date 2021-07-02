@@ -308,7 +308,7 @@ void agregar_auto(HashMap* mapa){
 
             tipoMarca *puntero = searchMap(mapa,nuevoAuto->Marca);
             insertMap(puntero->Autos,nuevoAuto->modelo,nuevoAuto);
-            //printf("Marca vieja - ");
+            
 
           }else{
 
@@ -351,21 +351,29 @@ void desplegarautos(HashMap * mapa){
   }
 
 }
-/*void concretar_compra();
+//void concretar_compra();
 
-void eliminar_auto_lista(hasmap * lista){
-printf(green "Seleccione el modelo del auto que necesita eliminar"), reset;
-char * modelo[50];
+void eliminar_auto_lista(list * lista){
+printf(green "Seleccione el modelo del auto que necesita eliminar"reset);
+char modelo[50];
+tipoAuto* aux=firstList(lista);
 scanf("%s", modelo);
-if (modelo =! null), break;
-while(modelo =! lista){
-  nextmap(lista_de_deseos);
-}
-//cuando se encuentre se elimina
+getchar();
+
+	while (aux != NULL) {  
+		if (strcmp (aux->modelo,modelo) == 0) {
+			tipoAuto *b = popCurrent(lista);
+			free(aux);
+			break;
+		}
+
+    aux=nextList(lista);
+
+  }
 }
 
-void eliminar_auto_base(hashmap * mapa){
-  printf(green "Seleccione un auto por modelo"), reset;
+/*void eliminar_auto_base(HashMap * mapa){
+  printf(green "Seleccione un auto por modelo que desea eliminar"reset);
   char * modelo[50];
   scanf("%s", modelo);
   buscado =  * busca_auto_nombre(modelo);
