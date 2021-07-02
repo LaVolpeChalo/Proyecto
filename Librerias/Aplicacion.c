@@ -353,7 +353,17 @@ void desplegarautos(HashMap * mapa){
 }
 /*void concretar_compra();
 
-void eliminar_auto_lista();
+void eliminar_auto_lista(hasmap * lista){
+printf("Seleccione el modelo del auto que necesita eliminar");
+}
 
-void eliminar_auto_base();*/
+void eliminar_auto_base(hashmap * mapa){
+  printf("Seleccione un auto por modelo");
+  char * modelo[50];
+  scanf("%s", modelo);
+  buscado =  * busca_auto_nombre(modelo);
+
+}
+
+*/
 
