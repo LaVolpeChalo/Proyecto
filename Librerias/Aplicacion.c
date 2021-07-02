@@ -354,14 +354,24 @@ void desplegarautos(HashMap * mapa){
 /*void concretar_compra();
 
 void eliminar_auto_lista(hasmap * lista){
-printf("Seleccione el modelo del auto que necesita eliminar");
+printf(green "Seleccione el modelo del auto que necesita eliminar"), reset;
+char * modelo[50];
+scanf("%s", modelo);
+if (modelo =! null), break;
+while(modelo =! lista){
+  nextmap(lista_de_deseos);
+}
+//cuando se encuentre se elimina
 }
 
 void eliminar_auto_base(hashmap * mapa){
-  printf("Seleccione un auto por modelo");
+  printf(green "Seleccione un auto por modelo"), reset;
   char * modelo[50];
   scanf("%s", modelo);
   buscado =  * busca_auto_nombre(modelo);
+  while(buscado =! mapa){
+    nextmap(mapa)
+  }
 
 }
 
