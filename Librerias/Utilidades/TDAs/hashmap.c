@@ -139,22 +139,22 @@ while(i<map->capacity){
   return  NULL;
 }
 
-void * nextMap(HashMap * map) {
-  long posicion=((map->current)+1);
-  do{
-    if(map->buckets[posicion]!=NULL){
-      if(map->buckets[posicion]->key){
-        map->current=posicion;
-        return map->buckets[posicion]->value;
-      }else{
-        posicion++;
-      }
-    }else{
-      posicion++;
-    }
-  }while(posicion<=map->capacity);
-    return NULL;
+void * nextMap(HashMap * map)
+{
+	for(int i = map->current + 1; i < map->capacity; i++)
+	{
+		if(map->buckets[i] != NULL)
+		{
+			if(map->buckets[i]->key != NULL)
+			{
+				map->current = i;
+				return map->buckets[i]->value;
+			}
+		}
+	}
+	return NULL;
 }
+
 
 int mapsize(HashMap * map){
     return map->size;

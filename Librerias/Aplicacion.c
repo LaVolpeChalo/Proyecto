@@ -333,22 +333,22 @@ void desplegarautos(HashMap * mapa){
   tipoAuto *auxtos;
 
 
-  for(int i = 0;i < mapsize(mapa);i++){
+  do{
 
     printf(green"\n%s\n",auxmarca->Marca,reset);
 
     auxtos = firstMap(auxmarca->Autos);
 
-    for(int j = 0;j < mapsize(auxmarca->Autos)-1;j++){
+    do{
 
       imprimirdatos(auxtos);
       auxtos = nextMap(auxmarca->Autos);
 
-    }
+    }while(auxtos != NULL);
 
     auxmarca = nextMap(mapa); 
 
-  }
+  }while(auxmarca != NULL);
 
 }
 //void concretar_compra();
