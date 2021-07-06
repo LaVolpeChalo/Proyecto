@@ -72,12 +72,12 @@ int main(){
             case 9:
             //Eliminar Auto de la lista de Autos Deseados
             printf(magenta"\n Elimininación de Autos Deseados\n"reset);
-            void eliminar_auto_lista();
+             eliminar_auto_lista(lista);
                 break;
             case 10:
             // Eliminar Auto de la base de Datos
             printf(magenta"\n Eliminacion de Autos Base de Datos \n"reset);
-            void eliminar_auto_base();
+             eliminar_auto_base(mapa);
                 break;
             case 11:
             //Exportar csv
