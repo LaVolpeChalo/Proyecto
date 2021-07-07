@@ -42,7 +42,7 @@ typedef struct{
 void importarArchivo(HashMap* mapa);
 void busca_auto_nombre(HashMap* mapa);
 void agregar_auto(HashMap* mapa);
-void ingresar_auto_lista(list * lista);
+void ingresar_auto_lista(list * lista,HashMap *mapa);
 void lista_autos(list * lista);
 void desplegarautos(HashMap* mapa);
 void concretar_compra(HashMap * mapa);

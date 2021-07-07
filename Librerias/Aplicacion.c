@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <ctype.h>
 #include "Aplicacion.h"
 #include "Utilidades/TDAs/hashmap.h"
 #include "Utilidades/TDAs/list.h"
@@ -327,55 +328,33 @@ void agregar_auto(HashMap* mapa){
 
 // Funcion que ingresa un nuevo auto deseado a la lista de deseados
 
-void ingresar_auto_lista(list* lista){
+void ingresar_auto_lista(list* lista,HashMap *mapa){
+  tipoMarca *auxm;
+  tipoAuto *auxa;
   
-  int Tipo;	//(si es 0 es auto, si es 1 es camioneta)
-  int condicion;	//(0 nuevo, 1 usado)
-  int Ano;
-  int Precio;
-  int Caja;	//(0 manual, 1 automático)
-  int NumeroDePuertas;
-  int NumeroDePasajeros;
-  char Marca[20];
-  int Traccion; //(0 si es 4x2, 1 si es 4x4)
-  float Motor;
-  char combustible[10];
-  int kilometraje; 
-  char Comentario[301];
-  char modelo[50];
+  char marca[25];
+  toupper(marca[0]);
+  char modelo[25];
+  toupper(modelo[0]);
+  printf(magenta"\nIngrese la marca del vehiculo a registrar en la lista de deseados:\n"reset);
+  getchar();
+  scanf("%s",&marca);
+  printf(magenta"\nIngrese el modelo del vehiculo a registrar en la lista de deseados:\n"reset);
+  getchar();
+  scanf("%s",&modelo);
+  auxm = searchMap(mapa,marca);
+  if(auxm == NULL){
+    printf(red"\nEl vehiculo ingresado no se encuentra en la base de datos\n"reset);
+    return;
+  }
+  auxa = searchMap(auxm->Autos,modelo);
+  if(auxa == NULL){
 
-  printf(cyan"\nIngrese la marca de su nuevo vehiculo: "reset);
-  scanf("%s",Marca);
-  printf(cyan"Ingrese el modelo de su nuevo vehiculo: "reset);
-  scanf("%s",modelo);
-  printf(cyan"Ingrese el tipo de su auto ( 0 si es auto, 1 si es camioneta ): "reset);
-  scanf("%d",&Tipo);
-  printf(cyan"Ingrese el motor de su nuevo vehiculo: "reset);
-  scanf("%f",&Motor);
-  printf(cyan"Ingrese la condicion en la que se encuentra su vehiculo( 0 si es nuevo, 1 si es usado ): "reset);
-  scanf("%d",&condicion);
-  printf(cyan"Ingrese la traccion de su vehiculo(0 si es 4x2, 1 si es 4x4): "reset);
-  scanf("%d",&Traccion);
-  printf(cyan"Ingrese la caja de cambios de su vehiculo(0 si es manual, 1 si es automático): "reset);
-  scanf("%d",&Caja);
-  printf(cyan"Ingrese el anno de salida de su nuevo vehiculo: "reset);
-  scanf("%d",&Ano);
-  printf(cyan"Ingrese el valor de su nuevo vehiculo: "reset);
-  scanf("%d",&Precio);
-  printf(cyan"Ingrese el kilometraje de su nuevo vehiculo: "reset);
-  scanf("%d",&kilometraje);
-  printf(cyan"Ingrese el tipo de combustible acorde a su nuevo vehiculo: "reset);
-  scanf("%s",combustible);
-  printf(cyan"Ingrese el numero de puertas: "reset);
-  scanf("%d",&NumeroDePuertas);
-  printf(cyan"Ingrese la cantidad de pasajeros: "reset);
-  scanf("%d",&NumeroDePasajeros);
-  
-  tipoAuto* nuevoAuto=crearAuto(Marca,modelo,Tipo,Motor,condicion,Traccion,Caja,Ano,Precio,kilometraje,combustible,NumeroDePuertas,NumeroDePasajeros);
-
-  pushBack(lista,nuevoAuto);
-
-
+    printf(red"\nEl vehiculo ingresado no se encuentra en la base de datos\n"reset);
+    return;
+  }
+  pushBack(lista,auxa);
+  printf(green"\nVehiculo ingresado correctamente\n"reset);
 }
 
 void lista_autos(list * lista){
