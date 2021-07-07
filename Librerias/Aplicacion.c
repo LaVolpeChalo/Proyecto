@@ -378,7 +378,15 @@ void ingresar_auto_lista(list* lista){
 
 }
 
-//void lista_autos();
+void lista_autos(list * lista){
+//primero se pone current en la primera posicion
+tipoAuto * autox = firstList(lista);
+  do
+  {
+    imprimirdatos(autox);
+    autox = nextList(lista);
+  }while(autox != NULL);
+}
 
 void desplegarautos(HashMap * mapa){
 	///Primero haré que recorra los mapas así nomas y luego me encargare de la impresión por alfabeto

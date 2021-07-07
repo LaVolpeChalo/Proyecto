@@ -47,12 +47,12 @@ int main(){
             case 5:
             //Ingresar Auto a lista de Autos Deseados
             printf(magenta"\n Ingresar Auto a Lista de Autos Deseados\n"reset);
-            void ingresar_auto_lista();
+            ingresar_auto_lista(lista);
                 break;
             case 6:
             //Desplegar lista de Autos Deseados
             printf(magenta"\n Lista de Autos Deseados \n"reset);
-            void lista_autos();
+            lista_autos(lista);
                 break; 
             case 7: 
             //Desplegar Todos los autos

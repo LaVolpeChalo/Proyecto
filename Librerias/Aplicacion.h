@@ -42,8 +42,8 @@ typedef struct{
 void importarArchivo(HashMap* mapa);
 void busca_auto_nombre();
 void agregar_auto();
-void ingresar_auto_lista();
-void lista_autos();
+void ingresar_auto_lista(list * lista);
+void lista_autos(list * lista);
 void desplegarautos(HashMap* mapa);
 void concretar_compra();
 void eliminar_auto_lista();
