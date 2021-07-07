@@ -40,14 +40,14 @@ typedef struct{
 
 
 void importarArchivo(HashMap* mapa);
-void busca_auto_nombre();
-void agregar_auto();
+void busca_auto_nombre(HashMap* mapa);
+void agregar_auto(HashMap* mapa);
 void ingresar_auto_lista(list * lista);
 void lista_autos(list * lista);
 void desplegarautos(HashMap* mapa);
 void concretar_compra(HashMap * mapa);
-void eliminar_auto_lista();
-void eliminar_auto_base();
+void eliminar_auto_lista(list* lista);
+void eliminar_auto_base(HashMap* mapa);
 void exportar_csv();
 void imprimirdatos(tipoAuto *vehiculo);
 

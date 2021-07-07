@@ -380,12 +380,17 @@ void ingresar_auto_lista(list* lista){
 
 void lista_autos(list * lista){
 //primero se pone current en la primera posicion
-tipoAuto * autox = firstList(lista);
-  do
-  {
+  tipoAuto * autox = firstList(lista);
+  if(autox!=NULL){
+    do
+    {
     imprimirdatos(autox);
     autox = nextList(lista);
-  }while(autox != NULL);
+    }while(autox != NULL);
+  }else{
+    printf(red"\nLa lista esta vacia\n"reset);
+  }
+
 }
 
 void desplegarautos(HashMap * mapa){
