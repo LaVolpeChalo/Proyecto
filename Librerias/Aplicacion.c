@@ -416,7 +416,7 @@ void desplegarautos(HashMap * mapa){
 //void concretar_compra();
 
 void eliminar_auto_lista(list * lista){
-printf(green "Seleccione el modelo del auto que necesita eliminar"reset);
+printf(cyan "Seleccione el modelo del auto que necesita eliminar: "reset);
 char modelo[50];
 tipoAuto* aux=firstList(lista);
 scanf("%s", modelo);
