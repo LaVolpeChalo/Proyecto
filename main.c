@@ -37,7 +37,7 @@ int main(){
             case 3:
             //Buscar Vehiculos por nombre
             printf(magenta"\n Buscar Vehiculo por Nombre \n"reset);
-            void * buscar_auto(HashMap* mapa);
+             busca_auto_nombre(mapa);
                 break;
             case 4:
             //Agregar Vehiculo

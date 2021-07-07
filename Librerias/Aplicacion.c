@@ -239,25 +239,26 @@ tipoAuto* crearAuto(char* Marca, char* modelo, int Tipo, float Motor, int condic
 
 
 
-/*void * buscar_auto(HashMap* mapa);
+//void * buscar_auto(HashMap* mapa);
 
 void busca_auto_nombre(HashMap* mapa){
-  char* modelo;
+  char modelo[50];
   printf(cyan"\nIngrese el modelo del vehiculo que quiere buscar: "reset);
   scanf("%s",modelo);
-  tipoMarca* auxmarca=(tipoMarca*)malloc(sizeof(tipoMarca));
-  tipoAuto* automovil = searchMap(auxmarca->Autos,modelo);
-  printf("\n%s\n",automovil->modelo);
-  auxmarca = searchMap(mapa,automovil->Marca);
-
-  while(automovil!=NULL){
-
-    if(strcmp(automovil->modelo,modelo)==0){
-      imprimirdatos(automovil);
+  getchar();
+  tipoAuto* aux;
+  tipoMarca* aux2=firstMap(mapa);
+  while(aux2!=NULL){
+    if(searchMap(aux2->Autos,modelo)!=NULL){
+      aux=searchMap(aux2->Autos,modelo);
+      if(strcmp(aux->modelo,modelo)==0){
+        imprimirdatos(aux);
+      }
     }
-    automovil = nextMap(auxmarca->Autos);
+    aux2=nextMap(mapa);
   }
-}*/
+  
+}
 
 void agregar_auto(HashMap* mapa){
 
