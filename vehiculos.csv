@@ -81,3 +81,7 @@ Nissan,Titan,	1,	3.0,	1,	1,	1,	2017,	39000000,	131000,Diesel,	4,	5
 Nissan,v16,	0,	1.6,	1,	0,	0,	2007,	2600000,	200000,Bencina,	4,	5
 Nissan,Versa,	0,	1.6,	1,	0,	1,	2016,	8900000,	97000,Bencina,	4,	5
 Nissan,X-trail,	1,	2.5,	1,	1,	1,	2019,	16000000,	38000,Bencina,	4,	5
+Tesla,	Model 3,	0,0.0,	,0	,0	,1	,2022,40000000,	0,	Electricidad,	4,	5
+Tesla,	Model S,	0,0.0,	,0	,0	,1	,2022,80000000,	0,	Electricidad,	4,	5
+Tesla,	Model X,	1,0.0,	,0	,1	,1	,2022,120000000,	0,	Electricidad,	4,	8
+Tesla,	Model Y,	1,0.0,	,0	,1	,1	,2022,200000000,	0,	Electricidad,	4,	8

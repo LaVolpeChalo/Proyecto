@@ -7,9 +7,9 @@
 #include "Utilidades/Interfaz.h"
 #include "Utilidades/TDAs/hashmap.h"
 #include "Aplicacion.h"
-//Include “../aplicacion.h”
 
-
+/*Función para automatizar el ingreso de datos booleanos,
+utilizados en parte de los datos de los vehículos*/
 int ingreso_bool(int aux,int i){
   do{
       if(i != 0) printf(red"\nIngrese una opcion valida\n"reset);
@@ -45,7 +45,7 @@ list *copiar_lista(list *contenedor,list *contenido){
   3 = Comprobar si hay vehiculos en el mapa/lista con el rango de consumo ingresado
   4 = Comprobar si hay vehiculos en el mapa/lista con la cantidad de pasajeros ingresado
   5 = Comprobar si hay vehiculos en la mapa/lista con el rango de kilometraje ingresado
-  Sub modos: 0 = mapa | 1 = lista*/
+  Sub modos: 0 = para mapa | 1 = para lista*/
 int busqueda_rango(int desde,int hasta,HashMap *mapa,list *filtrados,int modo,int submodo){
 
   tipoMarca *auxm = firstMap(mapa);
@@ -221,6 +221,9 @@ int busqueda_rango(int desde,int hasta,HashMap *mapa,list *filtrados,int modo,in
   return 1;
 }
 
+/*Esta función se utiliza a partir del segundo filtro a aplicar, ya que
+  deja de recorrer el hashmap en busca de datos y comienza a recorrer
+  la lista filtrada obtenida de los filtros anteriores*/ 
 list * filtrarlista(int opcion,list * filtrados){
    list *listaux = createList();
    int aux,aux2,i = 0,a = 0,ingreso = 0;
@@ -589,6 +592,10 @@ list * filtrarlista(int opcion,list * filtrados){
 
 }
 
+
+/*Esta función se utiliza solo en el primer filtro que el usuario quiera aplicar
+  ya que inserta los autos que cumplan el parametro solicitado en una lista 
+  que se trabajará a posterior*/
 list * filtrarmapa(int opcion,list *filtrados,HashMap *mapa){
 
   tipoMarca *auxmarca = firstMap(mapa);
@@ -990,7 +997,11 @@ list * filtrarmapa(int opcion,list *filtrados,HashMap *mapa){
 
 
 
-
+/*Esta función es el intermediario entre la interfaz y las funciones de busqueda,
+  su función es la de crear las variables necesarias y hacer las comparaciones
+  correspondientes para reconocer que filtros ya fueron usados y en que modo
+  deben usarse, también devuelve la aplicación al menú principal en caso de que
+  ya no hayan vehículos que filtrar*/
 void filtrar_autos(HashMap *mapa){
   list * filtrados = createList(); 
   int *usadas=(int*)calloc(11,sizeof(int));

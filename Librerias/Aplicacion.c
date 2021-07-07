@@ -431,7 +431,7 @@ char modelo[50];
       if(strcmp(aux->modelo,modelo) == 0){
         printf(red "\n----------------------------------\n"  reset);
         printf(magenta "Vendedor: Juan Perez Rojas\n" reset);
-        printf(green "Contacto:\n correo: juan_perez@gmail.com\n telefono: +569 4576 6787\n " reset);
+        printf(green "Contacto:\nCorreo: juan_perez@gmail.com\nTelefono: +569 4576 6787\n " reset);
         imprimirdatos(aux);
         printf(red "\n----------------------------------\n" reset);
       }
