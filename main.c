@@ -67,7 +67,7 @@ int main(){
             case 8:
             //Concretar Compra
             printf(magenta"\nCompra \n"reset);
-            void concretar_compra();
+            concretar_compra(mapa);
                 break;
             case 9:
             //Eliminar Auto de la lista de Autos Deseados

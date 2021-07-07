@@ -413,7 +413,27 @@ void desplegarautos(HashMap * mapa){
 
 }
 
-//void concretar_compra();
+void concretar_compra(HashMap * mapa){
+char modelo[50];
+  printf(green "\nIngrese el modelo del auto que desea comprar: "reset);
+  scanf("%s",modelo);
+  getchar();
+  tipoAuto* aux;
+  tipoMarca* aux_2 = firstMap(mapa);
+  while(aux_2 != NULL){
+    if(searchMap(aux_2->Autos,modelo) != NULL){
+      aux = searchMap(aux_2->Autos,modelo);
+      if(strcmp(aux->modelo,modelo) == 0){
+        printf(red "\n----------------------------------\n"  reset);
+        printf(magenta "Vendedor: Juan Perez Rojas\n" reset);
+        printf(green "Contacto:\n correo: juan_perez@gmail.com\n telefono: +569 4576 6787\n " reset);
+        imprimirdatos(aux);
+        printf(red "\n----------------------------------\n" reset);
+      }
+    }
+    aux_2 = nextMap(mapa);
+  }
+ }
 
 void eliminar_auto_lista(list * lista){
 printf(cyan "Seleccione el modelo del auto que necesita eliminar: "reset);

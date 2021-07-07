@@ -45,7 +45,7 @@ void agregar_auto();
 void ingresar_auto_lista(list * lista);
 void lista_autos(list * lista);
 void desplegarautos(HashMap* mapa);
-void concretar_compra();
+void concretar_compra(HashMap * mapa);
 void eliminar_auto_lista();
 void eliminar_auto_base();
 void exportar_csv();
