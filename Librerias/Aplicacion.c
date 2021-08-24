@@ -243,21 +243,31 @@ tipoAuto* crearAuto(char* Marca, char* modelo, int Tipo, float Motor, int condic
 //void * buscar_auto(HashMap* mapa);
 
 void busca_auto_nombre(HashMap* mapa){
+  char marca[50];
   char modelo[50];
-  printf(cyan"\nIngrese el modelo del vehiculo que quiere buscar: "reset);
-  scanf("%s",modelo);
+  printf(cyan"\nIngrese la marca del vehiculo que desea buscar: "reset);
   getchar();
-  tipoAuto* aux;
-  tipoMarca* aux2=firstMap(mapa);
-  while(aux2!=NULL){
-    if(searchMap(aux2->Autos,modelo)!=NULL){
-      aux=searchMap(aux2->Autos,modelo);
-      if(strcmp(aux->modelo,modelo)==0){
-        imprimirdatos(aux);
-      }
+  scanf("%s",&marca);
+  marca[0] = toupper(marca[0]);
+  tipoMarca* auxmarca = searchMap(mapa,marca);
+
+  if(auxmarca == NULL) printf(red"\nMarca no encontrada...\n"reset);
+  else{
+    printf(green"\nMarca encontrada correctamente\n"reset);
+    printf(cyan"\nIngrese el modelo del vehiculo que desea buscar:"reset);
+    getchar();
+    scanf("%s",&modelo);
+    modelo[0] = toupper(modelo[0]);
+
+    tipoAuto* auxto = searchMap(auxmarca->Autos,modelo);
+    if(auxto == NULL) printf(red"\nNo hay exitencias de este vehiculo\n"reset);
+    else{
+      imprimirdatos(auxto);
+      printf(green"\nVehiculo encontrado exitosamente\n"reset);
     }
-    aux2=nextMap(mapa);
+    
   }
+  printf(magenta"Volviendo al menu principal...\n"reset);
   
 }
 
@@ -278,31 +288,31 @@ void agregar_auto(HashMap* mapa){
   char Comentario[301];
   char modelo[50];
 
-  printf(cyan"\nIngrese la marca de su nuevo vehiculo: "reset);
+  printf(magenta"\nIngrese la marca de su nuevo vehiculo: "cyan);
   scanf("%s",Marca);
-  printf(cyan"Ingrese el modelo de su nuevo vehiculo: "reset);
+  printf(magenta"Ingrese el modelo de su nuevo vehiculo: "cyan);
   scanf("%s",modelo);
-  printf(cyan"Ingrese el tipo de su auto ( 0 si es auto, 1 si es camioneta ): "reset);
+  printf(magenta"Ingrese el tipo de su auto ( 0 si es auto, 1 si es camioneta ): "cyan);
   scanf("%d",&Tipo);
-  printf(cyan"Ingrese el motor de su nuevo vehiculo: "reset);
+  printf(magenta"Ingrese el motor de su nuevo vehiculo: "cyan);
   scanf("%f",&Motor);
-  printf(cyan"Ingrese la condicion en la que se encuentra su vehiculo( 0 si es nuevo, 1 si es usado ): "reset);
+  printf(magenta"Ingrese la condicion en la que se encuentra su vehiculo( 0 si es nuevo, 1 si es usado ): "cyan);
   scanf("%d",&condicion);
-  printf(cyan"Ingrese la traccion de su vehiculo(0 si es 4x2, 1 si es 4x4): "reset);
+  printf(magenta"Ingrese la traccion de su vehiculo(0 si es 4x2, 1 si es 4x4): "cyan);
   scanf("%d",&Traccion);
-  printf(cyan"Ingrese la caja de cambios de su vehiculo(0 si es manual, 1 si es automático): "reset);
+  printf(magenta"Ingrese la caja de cambios de su vehiculo(0 si es manual, 1 si es automático): "cyan);
   scanf("%d",&Caja);
-  printf(cyan"Ingrese el anno de salida de su nuevo vehiculo: "reset);
+  printf(magenta"Ingrese el anno de salida de su nuevo vehiculo: "cyan);
   scanf("%d",&Ano);
-  printf(cyan"Ingrese el valor de su nuevo vehiculo: "reset);
+  printf(magenta"Ingrese el valor de su nuevo vehiculo: "cyan);
   scanf("%d",&Precio);
-  printf(cyan"Ingrese el kilometraje de su nuevo vehiculo: "reset);
+  printf(magenta"Ingrese el kilometraje de su nuevo vehiculo: "cyan);
   scanf("%d",&kilometraje);
-  printf(cyan"Ingrese el tipo de combustible acorde a su nuevo vehiculo: "reset);
+  printf(magenta"Ingrese el tipo de combustible acorde a su nuevo vehiculo: "cyan);
   scanf("%s",combustible);
-  printf(cyan"Ingrese el numero de puertas: "reset);
+  printf(magenta"Ingrese el numero de puertas: "cyan);
   scanf("%d",&NumeroDePuertas);
-  printf(cyan"Ingrese la cantidad de pasajeros: "reset);
+  printf(magenta"Ingrese la cantidad de pasajeros: "cyan);
   scanf("%d",&NumeroDePasajeros);
 
   tipoAuto* nuevoAuto=crearAuto(Marca,modelo,Tipo,Motor,condicion,Traccion,Caja,Ano,Precio,kilometraje,combustible,NumeroDePuertas,NumeroDePasajeros);

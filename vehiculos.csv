@@ -9,14 +9,14 @@ Chevrolet,Corsa Sport,	0,	1.6,	1,	0,	0,	2004,	2500000,	220000,Bencina,	2,	5
 Chevrolet,Corsa,	0,	1.6,	1,	0,	0,	2006,	3200000,	180000,Bencina,	4,	5
 Chevrolet,Corvette,	0,	6.2,	1,	0,	1,	2010,	32450000,	32000,Bencina,	2,	2
 Chevrolet,Cruze,	0,	1.8,	1,	0,	0,	2014,	7600000,	130000,Bencina,	4,	5
-Chevrolet,d-max,	1,	2.5,	1,	1,	0,	2018,	18290000,	79000,Diesel,	4,	5
+Chevrolet,D-max,	1,	2.5,	1,	1,	0,	2018,	18290000,	79000,Diesel,	4,	5
 Chevrolet,Luv,	1,	1.6,	1,	0,	0,	1993,	3500000,	274302,Bencina,	4,	5
 Chevrolet,Montana,	1,	1.8,	1,	0,	0,	2013,	6400000,	120000,Bencina,	2,	2
 Chevrolet,Monza,	0,	1.7,	1,	0,	0,	1992,	1200000,	185000,Bencina,	4,	5
 Chevrolet,Onix,	0,	1.0,	0,	0,	1,	2020,	11190000,	0,Bencina,	4,	5
 Chevrolet,Orlando,	1,	2.4,	1,	0,	1,	2019,	13200000,	15000,Diesel,	4,	7
 Chevrolet,Prisma,	0,	1.4,	0,	0,	1,	2021,	10000000,	0,Bencina,	4,	5
-Chevrolet,s10,	1,	4.3,	1,	1,	1,	2000,	7150000,	180000,Bencina,	4,	5
+Chevrolet,S10,	1,	4.3,	1,	1,	1,	2000,	7150000,	180000,Bencina,	4,	5
 Chevrolet,Sail,	0,	1.4,	1,	0,	0,	2017,	7950000,	79000,Bencina,	4,	5
 Chevrolet,Silverado,	1,	5.3,	1,	1,	1,	2018,	30940000,	83500,Bencina,	4,	5
 Chevrolet,Sonic,	0,	1.6,	1,	0,	1,	2015,	6900000,	80000,Bencina,	4,	5
@@ -33,11 +33,11 @@ Hyundai,Galloper,	1,	2.5,	1,	1,	0,	2000,	5450000,	250000,Diesel,	4,	5
 Hyundai,Genesis,	0,	3.8,	1,	0,	1,	2017,	39000000,	40000,Bencina,	2,	4
 Hyundai,Grand i10,	0,	1.2,	1,	0,	0,	2018,	7400000,	26500,Bencina,	2,	4
 Hyundai,Santa fe,	1,	2.4,	1,	0,	1,	2012,	9800000,	128000,Bencina,	4,	7
-Hyundai,h1,	1,	2.5,	1,	1,	0,	2017,	18000000,	87000,Diesel,	4,	9
-Hyundai,h100,	1,	2.5,	1,	0,	0,	2002,	4500000,	163000,Diesel,	4,	5
-Hyundai,i10,	0,	1.2,	1,	0,	1,	2016,	7690000,	137000,Bencina,	4,	5
-Hyundai,i20,	0,	1.4,	1,	0,	0,	2019,	10690000,	40000,Bencina,	4,	5
-Hyundai,i30,	0,	2.0,	0,	0,	1,	2021,	18000000,	0,Bencina,	4,	5
+Hyundai,H1,	1,	2.5,	1,	1,	0,	2017,	18000000,	87000,Diesel,	4,	9
+Hyundai,H100,	1,	2.5,	1,	0,	0,	2002,	4500000,	163000,Diesel,	4,	5
+Hyundai,I10,	0,	1.2,	1,	0,	1,	2016,	7690000,	137000,Bencina,	4,	5
+Hyundai,I20,	0,	1.4,	1,	0,	0,	2019,	10690000,	40000,Bencina,	4,	5
+Hyundai,I30,	0,	2.0,	0,	0,	1,	2021,	18000000,	0,Bencina,	4,	5
 Hyundai,Matrix,	1,	2.5,	1,	0,	0,	2007,	4800000,	277000,Diesel,	4,	5
 Hyundai,Tucson,	1,	2.0,	1,	1,	1,	2017,	17400000,	143000,Diesel,	3,	5
 Hyundai,Sonata,	0,	2.4,	1,	0,	1,	2015,	14900000,	36000,Bencina,	4,	5
@@ -64,13 +64,13 @@ Toyota,Zelas,	0,	2.5,	1,	0,	1,	2012,	7890000,	245000,Bencina,	4,	5
 Nissan,350z,	0,	3.5,	1,	0,	1,	2005,	10500000,	114000,Bencina,	2,	2
 Nissan,370z,	0,	3.7,	1,	0,	1,	2013,	18900000,	56000,Bencina,	2,	2
 Nissan,Bluebird,	0,	1.2,	1,	0,	0,	1987,	2200000,	176.000,Bencina,	4,	5
-Nissan,d21,	1,	2.4,	1,	0,	0,	2000,	4800000,	338000,Bencina,	4,	5
+Nissan,D21,	1,	2.4,	1,	0,	0,	2000,	4800000,	338000,Bencina,	4,	5
 Nissan,Juke,	0,	1.6,	1,	1,	1,	2017,	13200000,	40000,Bencina,	2,	5
 Nissan,Kicks,	1,	1.6,	1,	0,	0,	2018,	12500000,	40000,Bencina,	4,	5
 Nissan,March,	0,	1.6,	1,	0,	0,	2016,	7000000,	26000,Bencina,	4,	5
 Nissan,Maxima,	0,	1.8,	1,	0,	1,	2001,	4000000,	120000,Bencina,	4,	5
 Nissan,Navara,	1,	2.5,	1,	1,	0,	2013,	12000000,	235000,Diesel,	4,	5
-Nissan,np300,	1,	2.3,	1,	1,	0,	2019,	24900000,	29000,Diesel,	4,	5
+Nissan,Np300,	1,	2.3,	1,	1,	0,	2019,	24900000,	29000,Diesel,	4,	5
 Nissan,Platina,	0,	1.6,	1,	0,	0,	2008,	3000000,	358000,Bencina,	4,	5
 Nissan,Qashqai,	1,	2.0,	1,	0,	0,	2012,	10000000,	99000,Bencina,	4,	5
 Nissan,Sentra,	0,	1.8,	1,	0,	1,	2018,	10300000,	54000,Bencina,	4,	5

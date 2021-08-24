@@ -36,22 +36,22 @@ int main(){
                 break;
             case 3:
             //Buscar Vehiculos por nombre
-            printf(magenta"\n Buscar Vehiculo por Nombre \n"reset);
+            printf(magenta"\nBuscar Vehiculo por Nombre\n"reset);
              busca_auto_nombre(mapa);
                 break;
             case 4:
             //Agregar Vehiculo
-            printf(magenta"\n Agregar Vehiculo\n"reset);
+            printf(magenta"\nAgregar Vehiculo\n"reset);
              agregar_auto(mapa);
                 break;
             case 5:
             //Ingresar Auto a lista de Autos Deseados
-            printf(magenta"\n Ingresar Auto a Lista de Autos Deseados\n"reset);
+            printf(magenta"\nIngresar Auto a Lista de Autos Deseados\n"reset);
             ingresar_auto_lista(lista,mapa);
                 break;
             case 6:
             //Desplegar lista de Autos Deseados
-            printf(magenta"\n Lista de Autos Deseados \n"reset);
+            printf(magenta"\nLista de Autos Deseados \n"reset);
             lista_autos(lista);
                 break; 
             case 7: 
@@ -71,17 +71,17 @@ int main(){
                 break;
             case 9:
             //Eliminar Auto de la lista de Autos Deseados
-            printf(magenta"\n Elimininación de Autos Deseados\n"reset);
+            printf(magenta"\nElimininación de Autos Deseados\n"reset);
              eliminar_auto_lista(lista);
                 break;
             case 10:
             // Eliminar Auto de la base de Datos
-            printf(magenta"\n Eliminacion de Autos Base de Datos \n"reset);
+            printf(magenta"\nEliminacion de Autos Base de Datos \n"reset);
              eliminar_auto_base(mapa);
                 break;
             case 11:
             //Exportar csv
-            printf(magenta"\n Exportar CSV \n"reset);
+            printf(magenta"\nExportar CSV \n"reset);
             void exportar_csv();
                 break; 
             case 0:
